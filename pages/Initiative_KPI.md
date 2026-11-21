@@ -1,0 +1,37 @@
+---
+title: "Initiative KPI"
+source_url: https://judicialknowledge.miraheze.org/wiki/Initiative_KPI
+revision_id: 501
+last_edited: 2026-08-29T07:58:14Z
+author: Cecep Mustafa
+affiliation: Indonesian Judicial College (IJC)
+orcid: https://orcid.org/0000-0003-0037-497X
+license: CC-BY-SA-4.0
+---
+
+# Initiative KPI
+
+# Initiative KPI
+
+Key Performance Indicators translate initiative objectives into measurable performance.
+
+## KPI Classes
+
+- input;
+- activity;
+- output;
+- outcome;
+- impact.
+
+## Priority
+
+Strategic initiatives should prioritize outcome and impact indicators over simple activity counts.
+
+[Category:KPIs](https://judicialknowledge.miraheze.org/wiki/Category:KPIs) [Category:Performance](https://judicialknowledge.miraheze.org/wiki/Category:Performance)
+
+---
+
+*Source:* [Initiative KPI](https://judicialknowledge.miraheze.org/wiki/Initiative_KPI) on the Judicial Knowledge Hub wiki, revision 501 (2026-08-29).  
+*Author:* Cecep Mustafa, Indonesian Judicial College (IJC). ORCID: [0000-0003-0037-497X](https://orcid.org/0000-0003-0037-497X)  
+*Cite as:* Mustafa, C. (2026). *Initiative KPI*. In *Judicial Knowledge Hub*. https://judicialknowledge.miraheze.org/wiki/Initiative_KPI  
+*Licence:* [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)

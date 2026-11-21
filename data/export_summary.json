@@ -1,0 +1,12 @@
+{
+  "pages": 2004,
+  "pandoc_failures": 1,
+  "nik_removed": 4,
+  "case_numbers_replaced": 8,
+  "emails_removed": 220,
+  "names_replaced_by_role": 4604,
+  "personal_details_removed": 314,
+  "combined_sha256": "2317b328d18b4a349009e9f932f0b0ca6f8985320eb49676cd757717782b73e7",
+  "exported_at": "2026-11-21T12:28:48Z",
+  "newest_revision": "2026-10-09T20:42:56Z"
+}

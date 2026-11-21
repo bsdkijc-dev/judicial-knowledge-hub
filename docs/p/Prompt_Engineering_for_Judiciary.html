@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Prompt Engineering for Judiciary — Judicial Knowledge Hub (Cecep Mustafa, IJC)</title>
+<meta name="description" content="Prompt Engineering for Judiciary Prompt engineering for judiciary refers to the structured design of instructions given to AI systems for judicial, administrative, research, educational, or knowledge-management tasks. Basic Prompt Architecture A robu">
+<meta name="author" content="Cecep Mustafa (Indonesian Judicial College, IJC)">
+<meta name="DC.creator" content="Mustafa, Cecep"><meta name="DC.rights" content="CC BY-SA 4.0">
+<link rel="canonical" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Prompt_Engineering_for_Judiciary.html"><link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><link rel="author" href="https://orcid.org/0000-0003-0037-497X">
+<link rel="alternate" type="text/markdown" href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/Prompt_Engineering_for_Judiciary.md">
+<meta property="og:title" content="Prompt Engineering for Judiciary — Judicial Knowledge Hub (Cecep Mustafa, IJC)"><meta property="og:description" content="Prompt Engineering for Judiciary Prompt engineering for judiciary refers to the structured design of instructions given to AI systems for judicial, administrative, research, educational, or knowledge-management tasks. Basic Prompt Architecture A robu">
+<meta property="og:url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Prompt_Engineering_for_Judiciary.html"><meta property="og:type" content="article">
+<meta name="citation_title" content="Prompt Engineering for Judiciary"><meta name="citation_author" content="Mustafa, Cecep"><meta name="citation_author_institution" content="Indonesian Judicial College (IJC)"><meta name="citation_author_orcid" content="https://orcid.org/0000-0003-0037-497X"><meta name="citation_publication_date" content="2026/08/28"><meta name="citation_inbook_title" content="Judicial Knowledge Hub"><meta name="citation_publisher" content="Indonesian Judicial College (IJC)"><meta name="citation_public_url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Prompt_Engineering_for_Judiciary.html"><meta name="DC.title" content="Prompt Engineering for Judiciary"><meta name="DC.date" content="2026-08-28">
+<style>
+:root{--fg:#1c2430;--mut:#5b6675;--bg:#fff;--acc:#0b2545;--gold:#b8901f;--line:#e3e7ee;--box:#f6f8fb}
+@media (prefers-color-scheme:dark){:root{--fg:#e8ecf2;--mut:#9aa6b6;--bg:#11161d;--acc:#8fb3e8;--gold:#d4af37;--line:#2a3340;--box:#18202a}}
+*{box-sizing:border-box}body{margin:0;font:17px/1.6 Georgia,'Times New Roman',serif;color:var(--fg);background:var(--bg)}
+header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{border-bottom:3px solid var(--gold);padding-top:18px;padding-bottom:10px}
+header a.home{font:600 15px/1.3 system-ui,sans-serif;color:var(--acc);text-decoration:none;letter-spacing:.02em}
+.by{font:14px/1.5 system-ui,sans-serif;color:var(--mut);margin:.3em 0 1.2em}
+h1{font-size:1.9em;line-height:1.25;margin:.6em 0 .2em;color:var(--acc)}
+h2,h3{color:var(--acc)} a{color:var(--acc)}
+table{border-collapse:collapse;display:block;overflow-x:auto;font-size:.92em}td,th{border:1px solid var(--line);padding:4px 8px;vertical-align:top}
+pre,code{font-size:.86em;background:var(--box);border-radius:4px}pre{padding:10px;overflow-x:auto;white-space:pre-wrap}
+blockquote{border-left:4px solid var(--gold);margin-left:0;padding-left:14px;color:var(--mut)}
+.cite{background:var(--box);border:1px solid var(--line);border-radius:8px;padding:12px 16px;font:14px/1.55 system-ui,sans-serif;margin:2em 0}
+.cite b{color:var(--acc)} footer{border-top:1px solid var(--line);margin-top:3em;padding:16px 20px 40px;font:13px/1.6 system-ui,sans-serif;color:var(--mut)}
+input#q{width:100%;padding:10px 12px;font:16px system-ui,sans-serif;border:1px solid var(--line);border-radius:8px;background:var(--box);color:var(--fg)}
+ul.idx{columns:2;column-gap:28px;padding-left:18px;font:15px/1.5 system-ui,sans-serif}@media(max-width:700px){ul.idx{columns:1}}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Prompt_Engineering_for_Judiciary.html", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Prompt_Engineering_for_Judiciary.html", "headline": "Prompt Engineering for Judiciary", "name": "Prompt Engineering for Judiciary", "description": "Prompt Engineering for Judiciary Prompt engineering for judiciary refers to the structured design of instructions given to AI systems for judicial, administrative, research, educational, or knowledge-management tasks. Basic Prompt Architecture A robu", "author": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "creator": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "publisher": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}, "copyrightHolder": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "dateModified": "2026-08-28T04:23:35Z", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "inLanguage": "en", "isPartOf": {"@type": "Dataset", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/#dataset", "name": "Judicial Knowledge Hub", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/"}, "isBasedOn": "https://judicialknowledge.miraheze.org/wiki/Prompt_Engineering_for_Judiciary", "identifier": "wiki-page-178-rev-192", "citation": "Mustafa, C. (2026). Prompt Engineering for Judiciary. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Prompt_Engineering_for_Judiciary.html", "encodingFormat": "text/html"}</script></head><body>
+<header><a class="home" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/">JUDICIAL KNOWLEDGE HUB · by Cecep Mustafa (IJC)</a></header><main><h1>Prompt Engineering for Judiciary</h1><p class="by">By <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC) · revision 192, 2026-08-28 · <a href="https://judicialknowledge.miraheze.org/wiki/Prompt_Engineering_for_Judiciary">wiki source</a> · <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/Prompt_Engineering_for_Judiciary.md">Markdown</a></p><h1 id="prompt-engineering-for-judiciary">Prompt Engineering for Judiciary</h1>
+<p><strong>Prompt engineering for judiciary</strong> refers to the structured design of instructions given to AI systems for judicial, administrative, research, educational, or knowledge-management tasks.</p>
+<h2 id="basic-prompt-architecture">Basic Prompt Architecture</h2>
+<p>A robust prompt may contain:</p>
+<p><strong>ROLE</strong> + <strong>TASK</strong> + <strong>CONTEXT</strong> + <strong>SOURCE</strong> + <strong>CONSTRAINTS</strong> + <strong>OUTPUT FORMAT</strong> + <strong>VERIFICATION</strong></p>
+<h2 id="example">Example</h2>
+<pre class="text"><code>ROLE:
+Act as a legal research assistant.
+
+TASK:
+Extract the legal propositions from the supplied decision.
+
+SOURCE:
+Use only the supplied document.
+
+CONSTRAINTS:
+Do not invent citations.
+Distinguish facts from legal reasoning.
+
+OUTPUT:
+Issue | Rule | Reasoning | Holding | Citation
+
+VERIFICATION:
+Flag every proposition that cannot be directly located
+in the source.</code></pre>
+<h2 id="prompt-safety">Prompt Safety</h2>
+<p>Prompts should avoid:</p>
+<ul>
+<li>Unnecessary confidential information</li>
+<li>Personal data</li>
+<li>Unverified assumptions</li>
+<li>Requests to fabricate authorities</li>
+<li>Ambiguous high-impact instructions</li>
+</ul>
+<h2 id="prompt-and-evidence">Prompt and Evidence</h2>
+<p>A good judicial prompt should make the evidence boundary clear:</p>
+<p><strong>WHAT MAY THE AI USE?</strong></p>
+<p><strong>WHAT MAY THE AI INFER?</strong></p>
+<p><strong>WHAT MUST THE AI NOT INVENT?</strong></p>
+<h2 id="competency">Competency</h2>
+<p>Prompt literacy should be combined with:</p>
+<ul>
+<li>Source verification</li>
+<li>Legal reasoning</li>
+<li>Data literacy</li>
+<li>Privacy awareness</li>
+<li>AI risk awareness</li>
+</ul>
+<h2 id="related-knowledge">Related Knowledge</h2>
+<ul>
+<li><a href="AI_Competency_Framework.html">AI Competency Framework</a></li>
+<li><a href="AI_Verification.html">AI Verification</a></li>
+<li><a href="AI_Hallucination.html">AI Hallucination</a></li>
+<li><a href="Judicial_AI_Use_Case.html">Judicial AI Use Case</a></li>
+</ul>
+<div class="cite"><b>Cite this page</b><br>Mustafa, C. (2026). Prompt Engineering for Judiciary. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Prompt_Engineering_for_Judiciary.html<br><b>Author</b>: Cecep Mustafa, IJC, ORCID <a href="https://orcid.org/0000-0003-0037-497X">0000-0003-0037-497X</a> · <b>Licence</b>: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></main><footer>
+Author: <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC), ORCID 0000-0003-0037-497X.
+Licence: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Source: <a href="https://judicialknowledge.miraheze.org/wiki/Main_Page">Judicial Knowledge Hub wiki</a>.
+Code and data: <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub">GitHub</a> · <a href="https://www.kaggle.com/datasets/judicialcollege/judicial-knowledge-hub-wiki-export-cecep-mustafa">Kaggle</a> · <a href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/llms.txt">llms.txt</a>.
+Personal data of private persons has been removed or replaced by role. Working knowledge-management notes, not official court publications.
+</footer></body></html>

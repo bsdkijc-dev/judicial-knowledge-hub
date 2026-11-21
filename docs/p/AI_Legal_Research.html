@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Legal Research — Judicial Knowledge Hub (Cecep Mustafa, IJC)</title>
+<meta name="description" content="Knowledge Metadata Title: AI Legal Research: Retrieval-Augmented Generation (RAG) Suites, Jurisprudential Vector Search, and Automated Precedent Curation Canonical Topic: Artificial Intelligence Legal Research Architecture Topic Type: System / Master">
+<meta name="author" content="Cecep Mustafa (Indonesian Judicial College, IJC)">
+<meta name="DC.creator" content="Mustafa, Cecep"><meta name="DC.rights" content="CC BY-SA 4.0">
+<link rel="canonical" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/AI_Legal_Research.html"><link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><link rel="author" href="https://orcid.org/0000-0003-0037-497X">
+<link rel="alternate" type="text/markdown" href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/AI_Legal_Research.md">
+<meta property="og:title" content="AI Legal Research — Judicial Knowledge Hub (Cecep Mustafa, IJC)"><meta property="og:description" content="Knowledge Metadata Title: AI Legal Research: Retrieval-Augmented Generation (RAG) Suites, Jurisprudential Vector Search, and Automated Precedent Curation Canonical Topic: Artificial Intelligence Legal Research Architecture Topic Type: System / Master">
+<meta property="og:url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/AI_Legal_Research.html"><meta property="og:type" content="article">
+<meta name="citation_title" content="AI Legal Research"><meta name="citation_author" content="Mustafa, Cecep"><meta name="citation_author_institution" content="Indonesian Judicial College (IJC)"><meta name="citation_author_orcid" content="https://orcid.org/0000-0003-0037-497X"><meta name="citation_publication_date" content="2026/08/27"><meta name="citation_inbook_title" content="Judicial Knowledge Hub"><meta name="citation_publisher" content="Indonesian Judicial College (IJC)"><meta name="citation_public_url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/AI_Legal_Research.html"><meta name="DC.title" content="AI Legal Research"><meta name="DC.date" content="2026-08-27">
+<style>
+:root{--fg:#1c2430;--mut:#5b6675;--bg:#fff;--acc:#0b2545;--gold:#b8901f;--line:#e3e7ee;--box:#f6f8fb}
+@media (prefers-color-scheme:dark){:root{--fg:#e8ecf2;--mut:#9aa6b6;--bg:#11161d;--acc:#8fb3e8;--gold:#d4af37;--line:#2a3340;--box:#18202a}}
+*{box-sizing:border-box}body{margin:0;font:17px/1.6 Georgia,'Times New Roman',serif;color:var(--fg);background:var(--bg)}
+header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{border-bottom:3px solid var(--gold);padding-top:18px;padding-bottom:10px}
+header a.home{font:600 15px/1.3 system-ui,sans-serif;color:var(--acc);text-decoration:none;letter-spacing:.02em}
+.by{font:14px/1.5 system-ui,sans-serif;color:var(--mut);margin:.3em 0 1.2em}
+h1{font-size:1.9em;line-height:1.25;margin:.6em 0 .2em;color:var(--acc)}
+h2,h3{color:var(--acc)} a{color:var(--acc)}
+table{border-collapse:collapse;display:block;overflow-x:auto;font-size:.92em}td,th{border:1px solid var(--line);padding:4px 8px;vertical-align:top}
+pre,code{font-size:.86em;background:var(--box);border-radius:4px}pre{padding:10px;overflow-x:auto;white-space:pre-wrap}
+blockquote{border-left:4px solid var(--gold);margin-left:0;padding-left:14px;color:var(--mut)}
+.cite{background:var(--box);border:1px solid var(--line);border-radius:8px;padding:12px 16px;font:14px/1.55 system-ui,sans-serif;margin:2em 0}
+.cite b{color:var(--acc)} footer{border-top:1px solid var(--line);margin-top:3em;padding:16px 20px 40px;font:13px/1.6 system-ui,sans-serif;color:var(--mut)}
+input#q{width:100%;padding:10px 12px;font:16px system-ui,sans-serif;border:1px solid var(--line);border-radius:8px;background:var(--box);color:var(--fg)}
+ul.idx{columns:2;column-gap:28px;padding-left:18px;font:15px/1.5 system-ui,sans-serif}@media(max-width:700px){ul.idx{columns:1}}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/AI_Legal_Research.html", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/AI_Legal_Research.html", "headline": "AI Legal Research", "name": "AI Legal Research", "description": "Knowledge Metadata Title: AI Legal Research: Retrieval-Augmented Generation (RAG) Suites, Jurisprudential Vector Search, and Automated Precedent Curation Canonical Topic: Artificial Intelligence Legal Research Architecture Topic Type: System / Master", "author": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "creator": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "publisher": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}, "copyrightHolder": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "dateModified": "2026-08-27T07:47:10Z", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "inLanguage": "en", "isPartOf": {"@type": "Dataset", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/#dataset", "name": "Judicial Knowledge Hub", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/"}, "isBasedOn": "https://judicialknowledge.miraheze.org/wiki/AI_Legal_Research", "identifier": "wiki-page-113-rev-127", "citation": "Mustafa, C. (2026). AI Legal Research. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/AI_Legal_Research.html", "encodingFormat": "text/html"}</script></head><body>
+<header><a class="home" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/">JUDICIAL KNOWLEDGE HUB · by Cecep Mustafa (IJC)</a></header><main><h1>AI Legal Research</h1><p class="by">By <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC) · revision 127, 2026-08-27 · <a href="https://judicialknowledge.miraheze.org/wiki/AI_Legal_Research">wiki source</a> · <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/AI_Legal_Research.md">Markdown</a></p><h2 id="knowledge-metadata">Knowledge Metadata</h2>
+<ul>
+<li><strong>Title:</strong> AI Legal Research: Retrieval-Augmented Generation (RAG) Suites, Jurisprudential Vector Search, and Automated Precedent Curation</li>
+<li><strong>Canonical Topic:</strong> Artificial Intelligence Legal Research Architecture</li>
+<li><strong>Topic Type:</strong> System / Master Strategy Architecture / Legal Technology Standard</li>
+<li><strong>Jurisdiction:</strong> Indonesia &amp; Global Comparative</li>
+<li><strong>Legal Domain:</strong> Legal Informatics, Artificial Intelligence, Jurisprudence, Case Law Research, Court Technology</li>
+<li><strong>Status:</strong> Stable Architecture / Active Master Technological Standard</li>
+<li><strong>Last Reviewed:</strong> 2026-08-27</li>
+<li><strong>Next Review Recommended:</strong> 2027-08-27</li>
+<li><strong>Primary Sources:</strong> Supreme Court Direktori Putusan Open-Data Portal, Center for Legal and Judicial Policy Strategy (Pustrajak 2026) Legal Informatics Standards, Master System Design Blueprint, Rule of Law 2045 Roadmap.</li>
+<li><strong>Related Wiki Pages:</strong> <a href="AI_-_JUDICIARY.html">AI &amp; JUDICIARY</a>, <a href="Judicial_Knowledge_Hub.html">Judicial Knowledge Hub</a>, <a href="Landmark_Decisions.html">Landmark Decisions</a>, <a href="Center_for_Legal_and_Judicial_Policy_Strategy_-Pustrajak.html">Center for Legal and Judicial Policy Strategy (Pustrajak)</a>, <a href="Supreme_Court_of_Indonesia_-Mahkamah_Agung_RI.html">Supreme Court of Indonesia (Mahkamah Agung RI)</a>, <a href="Direktori_Putusan.html">Direktori Putusan</a>,</li>
+</ul>
+<h2 id="core-definition">Core Definition</h2>
+<ul>
+<li><ul>
+<li>AI Legal Research** is the specialized institutional framework and technical architecture governing the deployment of Retrieval-Augmented Generation (RAG) models, natural language semantic search engines, and automated jurisprudential vector indexing tools within the Indonesian court system and Pustrajak research suites.</li>
+</ul></li>
+</ul>
+<!-- -->
+
+<ul>
+<li>**Simple Definition:** The advanced AI search system that allows judges, researchers, and legal analysts to instantly search millions of court rulings and legal documents using natural language instead of manual keyword lookups.</li>
+<li>**Legal / Technical Definition:** The institutional implementation of RAG vector indexing across the national *Direktori Putusan* and Supreme Court chamber precedents, enforcing Tier 1 epistemic grounding and strict anti-hallucination safeguards to accelerate empirical legal research without compromising doctrinal accuracy.</li>
+<li>**Plain-Language Explanation: <strong>It acts as the intelligent digital research assistant for the court system, instantly finding the exact precedents, statutes, and legal reasoning needed for judicial drafting and policy analysis.</strong></li>
+</ul>
+<h2 id="why-it-matters">Why It Matters</h2>
+<ul>
+<li>**Dramatically Accelerates Research Speed:** Reduces the time required to locate relevant Supreme Court precedents and chamber rulings from hours of manual searching to seconds of semantic querying.</li>
+<li>**Eliminates AI Hallucinations via RAG Grounding:** Mandates that AI search tools retrieve answers exclusively from verified Tier 1 institutional databases rather than unverified open-web scraping, guaranteeing absolute source integrity.</li>
+<li>**Unifies National Jurisprudence:** Helps judges and *Hakim Yustisial* discover conflicting lower-court interpretations instantly, supporting the Supreme Court Chamber System in achieving uniform case law.</li>
+<li>**Empowers Evidence-Based Policy Briefs:** Equips Pustrajak research teams with deep, automated precedent mapping when drafting academic papers (*Naskah Akademik*) and regulatory impact assessments.</li>
+</ul>
+<h2 id="key-technical-pillars">Key Technical Pillars</h2>
+<h3 id="1-retrieval-augmented-generation-rag-vector-architecture">1. Retrieval-Augmented Generation (RAG) Vector Architecture</h3>
+<ul>
+<li>**Meaning:** Connecting generative AI language models directly to secure, sovereign vector databases containing millions of anonymized Supreme Court judgments and statutory texts.</li>
+<li>**Why It Matters:** Grounds AI text generation in verified legal reality, ensuring every summary is anchored to real judicial verdicts.</li>
+<li>**Legal Basis / Source:** Master System Design Blueprint; Pustrajak AI Standards.</li>
+<li>**Related Concepts:** RAG AI, vector embeddings, anti-hallucination safeguards.</li>
+</ul>
+<h3 id="2-semantic-natural-language-querying-pencarian-semantik-bahasa-alami">2. Semantic Natural Language Querying (Pencarian Semantik Bahasa Alami)</h3>
+<ul>
+<li>**Meaning:** Allowing researchers to type complex legal questions in plain language (e.g., "Find precedents on digital signature breach of contract under UU ITE") rather than rigid database keywords.</li>
+<li>**Why It Matters:** Makes legal research intuitive and accessible, surfacing relevant case law even when exact statutory phrasing varies.</li>
+<li>**Legal Basis / Source:** Judicial Knowledge Hub Informatics Standards.</li>
+<li>**Related Concepts:** Natural language processing (NLP), semantic search, intelligent retrieval.</li>
+</ul>
+<h3 id="3-automated-precedent-mapping-and-ratio-decidendi-extraction">3. Automated Precedent Mapping and Ratio Decidendi Extraction</h3>
+<ul>
+<li>**Meaning:** AI-driven tools scanning landmark decisions to extract core legal holdings (*ratio decidendi*) and map how newer rulings modify or affirm older precedents.</li>
+<li>**Why It Matters:** Streamlines the identification of binding *jurisprudensi tetap* across complex multi-chamber disputes.</li>
+<li>**Legal Basis / Source:** Landmark Decisions Curation Framework.</li>
+<li>**Related Concepts:** Precedent mapping, ratio decidendi, legal analytics.</li>
+</ul>
+<h2 id="legal--institutional-framework">Legal / Institutional Framework</h2>
+<pre><code>Supreme Court Direktori Putusan &amp; Judicial Knowledge Hub Repositories
+       ↓
+Sovereign RAG AI Vector Indexing &amp; Semantic Embedding Engine
+       ↓
+Center for Legal and Judicial Policy Strategy (Pustrajak) AI Legal Research Suite:
+- Layer 1: Natural Language Semantic Querying by Judges &amp; Hakim Yustisial
+- Layer 2: Tier 1 Epistemic Filtering &amp; Anti-Hallucination Verification
+- Layer 3: Automated Ratio Decidendi &amp; Precedent Citation Synthesis
+- Layer 4: Human-in-the-Loop Review &amp; Final Judgment/Policy Drafting
+       ↓
+Deployed across National Courts, Pustrajak Research Units, &amp; Academic Hubs</code></pre>
+<h2 id="indonesia-section">Indonesia Section</h2>
+<ul>
+<li>**Institutional Curation:** Developed and managed by Pustrajak in collaboration with the Supreme Court Documentation and Legal Information Network (*JDIH MA RI*) and IT directorates.</li>
+<li>**Integration with National Portals:** Directly indexes anonymized verdicts from the **Direktori Putusan** open-data portal, ensuring seamless synergy between public transparency and advanced legal informatics.</li>
+<li>**Nomenclature:** Riset Hukum Berbasis AI — *AI Legal Research*; Pencarian Jurisprudensi RAG — *RAG Jurisprudence Search*.</li>
+</ul>
+<h2 id="comparative-perspective-">Comparative Perspective |</h2>
+<p>| Jurisdiction | AI Legal Research Platform | Core Technology | Source Grounding | | :--- | :--- | :--- | :--- | | **Indonesia** | **Pustrajak RAG Legal Research Suite** | Sovereign RAG vector search &amp; semantic NLP. | Grounded strictly in official Supreme Court *Direktori Putusan* archives. | | **United States** | Commercial AI Legal Suites (Westlaw/Lexis+ AI) | Commercial LLMs paired with proprietary federal reporter databases. | Grounded in federal/state reporter systems and legal treatises. | | **European Union** | EUR-Lex AI Semantic Search Tools | Multilingual EU law vector indexing and EUR-Lex database search. | Grounded in official EU legislation and CJEU case law (*Curia*). | | **Singapore** | Supreme Court Tech &amp; eLitigation Research Tools | Advanced electronic document indexing and legal search engines. | Grounded in Singapore Supreme Court and district court judgments. |</p>
+<h2 id="core-ai-legal-research-workflow">Core AI Legal Research Workflow</h2>
+<pre><code>┌─────────────────────────────────────────────────────────────┐
+│ 1. USER SUBMITS NATURAL LANGUAGE QUERY                      │
+│ • Judge or researcher types complex legal question into RAG │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 2. VECTOR DATABASE RETRIEVAL &amp; SEMANTIC MATCHING            │
+│ • System scans Direktori Putusan and landmark precedents    │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┤
+│ 3. EPISTEMIC FILTERING &amp; CITATION GROUNDING                 │
+│ • AI synthesizes response with verified Tier 1 case numbers │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 4. HUMAN VERIFICATION &amp; LEGAL DRAFTING                      │
+│ • Human researcher evaluates citations and drafts policy/ruling│
+└─────────────────────────────┴─────────────────────────────┘</code></pre>
+<h2 id="important-decisions--standards-milestones">Important Decisions &amp; Standards Milestones</h2>
+<ul>
+<li>Decision: Supreme Court Formalization of AI Legal Research Suites</li>
+</ul>
+<p><code> * *Issuing Body:* Mahkamah Agung RI (Office of the Chief Justice &amp; Pustrajak)</code><br />
+<code> * *Instrument Reference:* Master Directives on Artificial Intelligence Legal Research and Knowledge Retrieval</code><br />
+<code> * *Legal Principle:* The Supreme Court authorizes the operational use of sovereign AI legal research suites to assist judges and researchers, provided strict RAG source grounding and anti-hallucination protocols are enforced.</code><br />
+<code> * *Why It Matters:* Modernized national legal research while protecting the epistemic integrity of court archives.</code><br />
+<code> * *Official Source:* Mahkamah Agung Institutional Reports.</code></p>
+<h2 id="key-legislation--standards">Key Legislation &amp; Standards</h2>
+<ul>
+<li>Instrument: Supreme Court Regulation on Electronic Document Management and Direktori Putusan.</li>
+<li>Instrument: Rule of Law 2045 Master Strategic Roadmap (Pillar III).</li>
+<li>Instrument: Law No. 48 of 2009 on Judicial Power.</li>
+</ul>
+<h2 id="timeline">Timeline</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Milestone / Legal Tech Event</th>
+<th>Significance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>2008-04-21</strong></td>
+<td>Launch of Direktori Putusan</td>
+<td>Created the foundational digital judgment database necessary for future AI text training and vector embedding.</td>
+</tr>
+<tr class="even">
+<td><strong>2022-12-01</strong></td>
+<td>Centralization of Pustrajak Research Suites</td>
+<td>Empowered Pustrajak to build centralized institutional knowledge repositories.</td>
+</tr>
+<tr class="odd">
+<td><strong>2026-08-01</strong></td>
+<td>Rollout of AI Legal Research RAG Architecture</td>
+<td>Officially deployed sovereign semantic search and automated precedent curation tools across Supreme Court research units.</td>
+</tr>
+<tr class="even">
+<td><strong>2045-08-18</strong></td>
+<td>Golden Indonesia Centenary Target</td>
+<td>Full realization of real-time, predictive AI legal research networks for *Indonesia Emas 2045*.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="debates--controversies">Debates &amp; Controversies</h2>
+<ul>
+<li>Debate: Reliance on AI Semantic Search vs. Traditional Manual Digest Research</li>
+</ul>
+<p><code> * *Position A (Pro-AI Legal Research):* Traditional manual digestion of thousands of scattered court rulings is impossibly slow; AI semantic search is essential to ensure judges do not miss vital precedents.</code><br />
+<code> * *Position B (Cautious Traditionalism):* Over-reliance on automated search snippets might encourage superficial reading of case law, risking the misinterpretation of complex *ratio decidendi*.</code><br />
+<code> * *Evidence:* Legal informatics debates on cognitive changes in digital legal research.</code><br />
+<code> * *Current Status:* Harmonized under Pustrajak standards: AI legal research tools serve as rapid discovery engines, but researchers and judges remain fully obligated to review full-text judgments before citing them.</code></p>
+<h2 id="rule-of-law-connection">Rule-of-Law Connection</h2>
+<ul>
+<li>*Legal Certainty:* Instant, accurate access to binding Supreme Court precedents ensures lower courts apply the law uniformly, reinforcing legal certainty (*kepastian hukum*).</li>
+<li>*Transparent Scholarship:* Open access to verified AI search tools empowers academic researchers and advocates to audit case law comprehensively.</li>
+</ul>
+<h2 id="ai--future-of-law">AI &amp; Future of Law</h2>
+<ul>
+<li>*Multilingual Jurisprudential Vectoring:* Mapping Supreme Court precedents into multi-dimensional vector spaces to enable cross-lingual legal research across 80+ languages.</li>
+<li>*Predictive Precedent Evolution Modeling:* AI tools forecasting how upcoming chamber rulings may alter existing lines of jurisprudence.</li>
+</ul>
+<h2 id="common-misconceptions">Common Misconceptions</h2>
+<ul>
+<li>*Myth:* AI legal research tools can completely replace a human judge's independent analysis of facts and statutory interpretation.</li>
+</ul>
+<p><code> * *Reality:* AI legal research suites are sophisticated search and summarization tools; final legal reasoning and judgment drafting remain exclusively human (*teknis yudisial*).</code><br />
+<code> * *Source:* Law No. 48/2009; Master System Design Blueprint.</code></p>
+<ul>
+<li>*Myth:* AI legal research tools search the open web and invent fictitious case citations.</li>
+</ul>
+<p><code> * *Reality:* Sovereign RAG legal research suites are restricted strictly to verified Tier 1 databases (*Direktori Putusan*), eliminating web scraping and preventing hallucinations.</code><br />
+<code> * *Source:* Master Epistemic Standards.</code></p>
+<h2 id="practical-example">Practical Example</h2>
+<ul>
+<li>*Scenario:* A research judge (*Hakim Yustisial*) at Pustrajak is assigned to draft an academic policy brief on recent Supreme Court interpretations of digital asset fraud and needs all relevant verdicts from the past three years.</li>
+<li>*Question:* How does AI Legal Research facilitate the assignment?</li>
+<li>*Applicable Principle:* RAG Vector Architecture &amp; Natural Language Querying (AI Legal Research).</li>
+<li>*Analysis:*</li>
+</ul>
+<p><code> 1. The researcher logs into the secure Pustrajak AI Legal Research Suite.</code><br />
+<code> 2. Submits a natural language query: "Retrieve Supreme Court rulings addressing digital asset fraud and crypto appropriation under criminal law."</code><br />
+<code> 3. The RAG AI engine instantly surfaces the relevant anonymized verdicts from the *Direktori Putusan*, extracts their core *ratio decidendi*, and provides direct case citations.</code><br />
+<code> * *Result:* Research completion time drops from days of manual cataloging to seconds of semantic retrieval.</code></p>
+<ul>
+<li>*Limitation:* AI legal research suites retrieve and synthesize case law with lightning speed, but the researcher must perform final qualitative analysis for the policy brief.</li>
+</ul>
+<h2 id="key-terms">Key Terms</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Definition</th>
+<th>Related Term</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>AI Legal Research</strong></td>
+<td>The deployment of RAG models and semantic vector search to query case law and statutes instantly.</td>
+<td>Legal Informatics, RAG AI</td>
+</tr>
+<tr class="even">
+<td><strong>RAG (Retrieval-Augmented Generation)</strong></td>
+<td>An advanced AI architecture grounding generative responses in verified, secure document databases.</td>
+<td>AI Search, Vector DB</td>
+</tr>
+<tr class="odd">
+<td><strong>Vector Embedding</strong></td>
+<td>Mathematical representation of legal text meaning that enables computers to perform intelligent semantic searches.</td>
+<td>Legal Informatics, NLP</td>
+</tr>
+<tr class="even">
+<td><strong>Ratio Decidendi</strong></td>
+<td>The crucial legal reasoning upon which a judicial decision is founded, extracted by AI research tools.</td>
+<td>Landmark Decisions, Precedent</td>
+</tr>
+</tbody>
+</table>
+<h2 id="related-wiki-pages">Related Wiki Pages</h2>
+<ul>
+<li><a href="AI_-_JUDICIARY.html">AI &amp; JUDICIARY</a></li>
+<li><a href="Judicial_Knowledge_Hub.html">Judicial Knowledge Hub</a></li>
+<li><a href="Landmark_Decisions.html">Landmark Decisions</a></li>
+<li><a href="Center_for_Legal_and_Judicial_Policy_Strategy_-Pustrajak.html">Center for Legal and Judicial Policy Strategy (Pustrajak)</a></li>
+<li><a href="Supreme_Court_of_Indonesia_-Mahkamah_Agung_RI.html">Supreme Court of Indonesia (Mahkamah Agung RI)</a></li>
+<li><a href="Direktori_Putusan.html">Direktori Putusan</a></li>
+<li></li>
+</ul>
+<h2 id="knowledge-relationships">Knowledge Relationships</h2>
+<ul>
+<li><strong>AI Legal Research</strong> → *is a component of* → <a href="AI_-_JUDICIARY.html">AI &amp; JUDICIARY</a></li>
+<li><strong>AI Legal Research</strong> → *managed by* → <a href="Center_for_Legal_and_Judicial_Policy_Strategy_-Pustrajak.html">Center for Legal and Judicial Policy Strategy (Pustrajak)</a> &amp; <a href="Supreme_Court_of_Indonesia_-Mahkamah_Agung_RI.html">Supreme Court of Indonesia (Mahkamah Agung RI)</a></li>
+<li><strong>AI Legal Research</strong> → *queries data from* → <a href="Judicial_Knowledge_Hub.html">Judicial Knowledge Hub</a> &amp; <a href="Direktori_Putusan.html">Direktori Putusan</a></li>
+<li><strong>AI Legal Research</strong> → *surfaces insights on* → <a href="Landmark_Decisions.html">Landmark Decisions</a></li>
+<li><strong>AI Legal Research</strong> → *upholds principles of* → <a href="Law_No._48-2009_-Judicial_Power.html">Law No. 48/2009 (Judicial Power)</a> &amp; <a href="1945_Constitution_of_Indonesia_-Article_24.html">1945 Constitution of Indonesia (Article 24)</a></li>
+</ul>
+<h2 id="sources">Sources</h2>
+<h3 id="tier-1--official--primary-sources">Tier 1 — Official / Primary Sources</h3>
+<ol type="1">
+<li>Supreme Court of Indonesia, *Direktori Putusan Open-Data Portal Guidelines*, Biro Hukum dan Humas MA RI.</li>
+<li>Center for Legal and Judicial Policy Strategy (Pustrajak), *AI Legal Research and RAG Architecture Standards*, Mahkamah Agung RI, 2026.</li>
+<li>Law No. 48 of 2009 on Judicial Power.</li>
+</ol>
+<h3 id="tier-2--academic--institutional-sources">Tier 2 — Academic &amp; Institutional Sources</h3>
+<ol type="1">
+<li>Mahkamah Agung RI, *Buku Pedoman Riset Hukum Berbasis Teknologi dan Kecerdasan Buatan*, Badan Litbang Diklat Kumdil.</li>
+<li>Pustrajak Mahkamah Agung RI, *Kajian Efektivitas Pencarian Semantik dan RAG AI dalam Riset Peradilan Menuju 2045*, 2026.</li>
+</ol>
+<h2 id="update-log">Update Log</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Status</th>
+<th>Change Summary</th>
+<th>Source / Authority</th>
+<th>Editor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>2026-08-27</strong></td>
+<td><strong>NEW</strong></td>
+<td>Canonical master wiki knowledge baseline generated for AI Legal Research.</td>
+<td>Mahkamah Agung RI / Pustrajak Master Wiki Standard</td>
+<td>Judicial Knowledge Architect</td>
+</tr>
+</tbody>
+</table>
+<h2 id="review-status">Review Status</h2>
+<ul>
+<li><strong>Current Status:</strong> Active &amp; Verified</li>
+<li><strong>Review Trigger:</strong> Upgrades to RAG AI search algorithms, expansions of Direktori Putusan database schemas, or major revisions to legal research informatics standards.</li>
+</ul>
+<h2 id="seo--ai-metadata">SEO &amp; AI Metadata</h2>
+<ul>
+<li><strong>SEO Title:</strong> AI Legal Research: RAG AI &amp; Jurisprudential Vector Search | Hub</li>
+<li><strong>Meta Description:</strong> Definitive wiki reference for AI Legal Research covering Retrieval-Augmented Generation (RAG) suites, semantic vector search, and precedent curation.</li>
+<li><strong>Primary Entity:</strong> AI Legal Research Architecture</li>
+<li><strong>Primary Topic:</strong> Retrieval-Augmented Generation (RAG) Suites, Jurisprudential Vector Search, and Automated Precedent Curation</li>
+<li><strong>Alternative Terms:</strong> Riset Hukum AI Indonesia, RAG Legal Search Judiciary, Pustrajak AI Research Suites.</li>
+<li><strong>Questions Answered:</strong>
+<ul>
+<li>What is AI Legal Research and how do RAG vector search suites operate within Indonesian courts?</li>
+<li>How do semantic natural language queries and anti-hallucination safeguards protect Supreme Court jurisprudence research?</li>
+<li>How does Pustrajak integrate AI legal research tools with the Direktori Putusan and Judicial Knowledge Hub?</li>
+</ul></li>
+</ul>
+<div class="cite"><b>Cite this page</b><br>Mustafa, C. (2026). AI Legal Research. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/AI_Legal_Research.html<br><b>Author</b>: Cecep Mustafa, IJC, ORCID <a href="https://orcid.org/0000-0003-0037-497X">0000-0003-0037-497X</a> · <b>Licence</b>: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></main><footer>
+Author: <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC), ORCID 0000-0003-0037-497X.
+Licence: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Source: <a href="https://judicialknowledge.miraheze.org/wiki/Main_Page">Judicial Knowledge Hub wiki</a>.
+Code and data: <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub">GitHub</a> · <a href="https://www.kaggle.com/datasets/judicialcollege/judicial-knowledge-hub-wiki-export-cecep-mustafa">Kaggle</a> · <a href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/llms.txt">llms.txt</a>.
+Personal data of private persons has been removed or replaced by role. Working knowledge-management notes, not official court publications.
+</footer></body></html>

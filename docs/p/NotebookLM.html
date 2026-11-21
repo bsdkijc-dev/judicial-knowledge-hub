@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NotebookLM — Judicial Knowledge Hub (Cecep Mustafa, IJC)</title>
+<meta name="description" content="Knowledge Metadata Title: NotebookLM Architecture: Centralized Knowledge Repositories, RAG Source Grounding, AI Research Assistant, and Master Epistemic Vaults Canonical Topic: NotebookLM Knowledge Management &amp; Research Architecture Topic Type: Syste">
+<meta name="author" content="Cecep Mustafa (Indonesian Judicial College, IJC)">
+<meta name="DC.creator" content="Mustafa, Cecep"><meta name="DC.rights" content="CC BY-SA 4.0">
+<link rel="canonical" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/NotebookLM.html"><link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><link rel="author" href="https://orcid.org/0000-0003-0037-497X">
+<link rel="alternate" type="text/markdown" href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/NotebookLM.md">
+<meta property="og:title" content="NotebookLM — Judicial Knowledge Hub (Cecep Mustafa, IJC)"><meta property="og:description" content="Knowledge Metadata Title: NotebookLM Architecture: Centralized Knowledge Repositories, RAG Source Grounding, AI Research Assistant, and Master Epistemic Vaults Canonical Topic: NotebookLM Knowledge Management &amp; Research Architecture Topic Type: Syste">
+<meta property="og:url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/NotebookLM.html"><meta property="og:type" content="article">
+<meta name="citation_title" content="NotebookLM"><meta name="citation_author" content="Mustafa, Cecep"><meta name="citation_author_institution" content="Indonesian Judicial College (IJC)"><meta name="citation_author_orcid" content="https://orcid.org/0000-0003-0037-497X"><meta name="citation_publication_date" content="2026/08/27"><meta name="citation_inbook_title" content="Judicial Knowledge Hub"><meta name="citation_publisher" content="Indonesian Judicial College (IJC)"><meta name="citation_public_url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/NotebookLM.html"><meta name="DC.title" content="NotebookLM"><meta name="DC.date" content="2026-08-27">
+<style>
+:root{--fg:#1c2430;--mut:#5b6675;--bg:#fff;--acc:#0b2545;--gold:#b8901f;--line:#e3e7ee;--box:#f6f8fb}
+@media (prefers-color-scheme:dark){:root{--fg:#e8ecf2;--mut:#9aa6b6;--bg:#11161d;--acc:#8fb3e8;--gold:#d4af37;--line:#2a3340;--box:#18202a}}
+*{box-sizing:border-box}body{margin:0;font:17px/1.6 Georgia,'Times New Roman',serif;color:var(--fg);background:var(--bg)}
+header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{border-bottom:3px solid var(--gold);padding-top:18px;padding-bottom:10px}
+header a.home{font:600 15px/1.3 system-ui,sans-serif;color:var(--acc);text-decoration:none;letter-spacing:.02em}
+.by{font:14px/1.5 system-ui,sans-serif;color:var(--mut);margin:.3em 0 1.2em}
+h1{font-size:1.9em;line-height:1.25;margin:.6em 0 .2em;color:var(--acc)}
+h2,h3{color:var(--acc)} a{color:var(--acc)}
+table{border-collapse:collapse;display:block;overflow-x:auto;font-size:.92em}td,th{border:1px solid var(--line);padding:4px 8px;vertical-align:top}
+pre,code{font-size:.86em;background:var(--box);border-radius:4px}pre{padding:10px;overflow-x:auto;white-space:pre-wrap}
+blockquote{border-left:4px solid var(--gold);margin-left:0;padding-left:14px;color:var(--mut)}
+.cite{background:var(--box);border:1px solid var(--line);border-radius:8px;padding:12px 16px;font:14px/1.55 system-ui,sans-serif;margin:2em 0}
+.cite b{color:var(--acc)} footer{border-top:1px solid var(--line);margin-top:3em;padding:16px 20px 40px;font:13px/1.6 system-ui,sans-serif;color:var(--mut)}
+input#q{width:100%;padding:10px 12px;font:16px system-ui,sans-serif;border:1px solid var(--line);border-radius:8px;background:var(--box);color:var(--fg)}
+ul.idx{columns:2;column-gap:28px;padding-left:18px;font:15px/1.5 system-ui,sans-serif}@media(max-width:700px){ul.idx{columns:1}}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/NotebookLM.html", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/NotebookLM.html", "headline": "NotebookLM", "name": "NotebookLM", "description": "Knowledge Metadata Title: NotebookLM Architecture: Centralized Knowledge Repositories, RAG Source Grounding, AI Research Assistant, and Master Epistemic Vaults Canonical Topic: NotebookLM Knowledge Management & Research Architecture Topic Type: Syste", "author": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "creator": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "publisher": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}, "copyrightHolder": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "dateModified": "2026-08-27T08:01:35Z", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "inLanguage": "en", "isPartOf": {"@type": "Dataset", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/#dataset", "name": "Judicial Knowledge Hub", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/"}, "isBasedOn": "https://judicialknowledge.miraheze.org/wiki/NotebookLM", "identifier": "wiki-page-126-rev-140", "citation": "Mustafa, C. (2026). NotebookLM. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/NotebookLM.html", "encodingFormat": "text/html"}</script></head><body>
+<header><a class="home" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/">JUDICIAL KNOWLEDGE HUB · by Cecep Mustafa (IJC)</a></header><main><h1>NotebookLM</h1><p class="by">By <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC) · revision 140, 2026-08-27 · <a href="https://judicialknowledge.miraheze.org/wiki/NotebookLM">wiki source</a> · <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/NotebookLM.md">Markdown</a></p><h2 id="knowledge-metadata">Knowledge Metadata</h2>
+<ul>
+<li><strong>Title:</strong> NotebookLM Architecture: Centralized Knowledge Repositories, RAG Source Grounding, AI Research Assistant, and Master Epistemic Vaults</li>
+<li><strong>Canonical Topic:</strong> NotebookLM Knowledge Management &amp; Research Architecture</li>
+<li><strong>Topic Type:</strong> System / Master Strategy Architecture / Research Technology Standard</li>
+<li><strong>Jurisdiction:</strong> Indonesia &amp; Global Comparative</li>
+<li><strong>Legal Domain:</strong> Legal Informatics, Artificial Intelligence, Knowledge Management, Empirical Legal Research, Court Technology</li>
+<li><strong>Status:</strong> Stable Architecture / Active Master Research Technology Standard</li>
+<li><strong>Last Reviewed:</strong> 2026-08-27</li>
+<li><strong>Next Review Recommended:</strong> 2027-08-27</li>
+<li><strong>Primary Sources:</strong> Center for Legal and Judicial Policy Strategy (Pustrajak 2026) Knowledge Management Guidelines, Master System Design Blueprint, Rule of Law 2045 Roadmap.</li>
+<li><strong>Related Wiki Pages:</strong> <a href="AI_-_JUDICIARY.html">AI &amp; JUDICIARY</a>, <a href="AI_Legal_Research.html">AI Legal Research</a>, <a href="Judicial_Knowledge_Hub.html">Judicial Knowledge Hub</a>, <a href="Center_for_Legal_and_Judicial_Policy_Strategy_-Pustrajak.html">Center for Legal and Judicial Policy Strategy (Pustrajak)</a>, <a href="Supreme_Court_of_Indonesia_-Mahkamah_Agung_RI.html">Supreme Court of Indonesia (Mahkamah Agung RI)</a>, <a href="RESEARCH.html">RESEARCH</a>,</li>
+</ul>
+<h2 id="core-definition">Core Definition</h2>
+<p>The **NotebookLM** repository is the specialized strategic framework and technical architecture governing the utilization of Google's NotebookLM AI research assistants and centralized source-grounded knowledge vaults within Pustrajak research operations, academic drafting teams, and Supreme Court analytical suites.</p>
+<ul>
+<li>**Simple Definition:** The secure AI research workspace where Pustrajak researchers upload official documents, laws, and policy papers to create a private, anti-hallucination knowledge base for fast, accurate legal research.</li>
+<li>**Legal / Technical Definition:** The institutional implementation of source-grounded Retrieval-Augmented Generation (RAG) workspaces managed by Pustrajak, enforcing strict Tier 1 source anchoring across academic drafts (*Naskah Akademik*), policy briefs, and comparative law monographs under Rule of Law 2045.</li>
+<li>**Plain-Language Explanation: <strong>It acts as the intelligent digital research assistant and locked vault for the judiciary, ensuring that every AI-generated research summary or analysis is strictly derived from verified institutional documents.</strong></li>
+</ul>
+<h2 id="why-it-matters">Why It Matters</h2>
+<ul>
+<li>**Eliminates AI Hallucinations via Source Grounding:** Restricts the AI's knowledge base exclusively to user-uploaded documents (laws, SIPP reports, and landmark rulings), preventing unverified open-web speculation.</li>
+<li>**Creates Centralized "Single Source of Truth":** Unifies scattered research notes, comparative monographs, and statutory drafts into organized, searchable institutional notebooks for Pustrajak task forces.</li>
+<li>**Accelerates Policy Brief and Naskah Akademik Drafting:** Empowers *Hakim Yustisial* and researchers to synthesize thousands of pages of legal material into structured summaries and briefing documents in seconds.</li>
+<li>**Secures Epistemic Integrity:** Enforces rigorous document source attribution, ensuring every generated insight contains direct citations to original institutional files.</li>
+</ul>
+<h2 id="key-operational-pillars">Key Operational Pillars</h2>
+<h3 id="1-source-grounded-rag-workspaces-workspace-rag-berbasis-sumber">1. Source-Grounded RAG Workspaces (Workspace RAG Berbasis Sumber)</h3>
+<ul>
+<li>**Meaning:** Creating dedicated notebooks for specific research projects (e.g., *RUU Jabatan Hakim* or the Japanese Mediation Series) where all uploaded files serve as the exclusive knowledge boundary for the AI.</li>
+<li>**Why It Matters:** Guarantees absolute control over data sources and prevents the introduction of external, unverified information.</li>
+<li>**Legal Basis / Source:** Pustrajak Knowledge Management Directives; Master Epistemic Standards.</li>
+<li>**Related Concepts:** Source grounding, RAG workspace, data isolation.</li>
+</ul>
+<h3 id="2-automated-briefing-document-and-audio-overview-synthesis">2. Automated Briefing Document and Audio Overview Synthesis</h3>
+<ul>
+<li>**Meaning:** Utilizing advanced AI features within NotebookLM to synthesize uploaded legal documents into structured executive summaries, study guides, and audio conversational overviews.</li>
+<li>**Why It Matters:** Streamlines the review of massive legislative dossiers and accelerates the production of executive policy briefs.</li>
+<li>**Legal Basis / Source:** Rule of Law 2045 Pillar III Standards.</li>
+<li>**Related Concepts:** Automated synthesis, audio overviews, executive briefs.</li>
+</ul>
+<h3 id="3-precise-citation-mapping-and-source-attribution">3. Precise Citation Mapping and Source Attribution</h3>
+<ul>
+<li>**Meaning:** Ensuring every generated analytical insight or research summary includes exact inline citations linking back to the specific paragraph and page of the source document.</li>
+<li>**Why It Matters:** Provides transparent audit trails, allowing researchers to verify every claim instantly against official legal texts.</li>
+<li>**Legal Basis / Source:** Master Quality Control &amp; Epistemic Standard.</li>
+<li>**Related Concepts:** Citation mapping, source attribution, auditability.</li>
+</ul>
+<h2 id="legal--institutional-framework">Legal / Institutional Framework</h2>
+<pre><code>Pustrajak Master Research &amp; Knowledge Management Directives
+       ↓
+NotebookLM Sovereign Research Workspaces:
+- Layer 1: Secure Document Ingestion (Naskah Akademik, Statutes, SIPP Data)
+- Layer 2: Source-Grounded RAG Indexing &amp; Semantic Vector Mapping
+- Layer 3: Automated Synthesis, Executive Briefing, &amp; Citation Curation
+- Layer 4: Human-in-the-Loop Review &amp; Final Policy Publication
+       ↓
+Integrated across Pustrajak Research Hub &amp; Judicial Knowledge Hub</code></pre>
+<h2 id="indonesia-section">Indonesia Section</h2>
+<ul>
+<li>**Institutional Utilization:** Deployed across Pustrajak research units and academic drafting task forces (*RUU Jabatan Hakim*, *RUU HPI*, and comparative law monographs).</li>
+<li>**Integration with Knowledge Hub:** Serves as the primary rapid-deployment research workbench before finalized outputs are indexed into the master Judicial Knowledge Hub.</li>
+<li>**Nomenclature:** Ruang Kerja Riset NotebookLM — *NotebookLM Research Workspace*; Basis Pengetahuan Terpusat — *Centralized Knowledge Base*.</li>
+</ul>
+<h2 id="comparative-perspective">Comparative Perspective</h2>
+<p>| Jurisdiction | Institutional Research Workbench | Core Technology | Source Grounding | | :--- | :--- | :--- | :--- | | **Indonesia** | **Pustrajak NotebookLM Workspaces** | Google source-grounded RAG AI workbench. | Grounded strictly in uploaded Pustrajak files, statutes, and verdicts. | | **United States** | Federal Judicial Center (FJC) Research Workbenches | Secure federal research analytics and document management suites. | Grounded in official federal legal databases and case files. | | **Japan** | Supreme Court Research Institute Digital Workspaces | Secure research information management systems. | Grounded in official Japanese statutes and *Shihō Kenshūjo* archives. | | **European Union** | EU Justice &amp; Research Knowledge Repositories | European Commission document analysis and RAG research tools. | Grounded in official EU legislation and CJEU case law. |</p>
+<h2 id="core-notebooklm-operational-workflow">Core NotebookLM Operational Workflow</h2>
+<pre><code>┌─────────────────────────────────────────────────────────────┐
+│ 1. CREATION OF DEDICATED RESEARCH NOTEBOOK                  │
+│ • Pustrajak establishes secure workspace for a specific study │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 2. UPLOADING VERIFIED TIER 1 SOURCES &amp; STATUTES             │
+│ • Ingesting Naskah Akademik, laws, and comparative monographs│
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┤
+│ 3. SOURCE-GROUNDED RAG QUERYING &amp; SYNTHESIS                 │
+│ • Researcher prompts workspace for analysis with citations  │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 4. HUMAN VERIFICATION &amp; EXPORT TO RESEARCH HUB              │
+│ • Validating citations and publishing final policy briefs   │
+└─────────────────────────────┴─────────────────────────────┘</code></pre>
+<h2 id="important-decisions--standards-milestones">Important Decisions &amp; Standards Milestones</h2>
+<ul>
+<li>Decision: Supreme Court Approval of NotebookLM for Pustrajak Research Operations</li>
+</ul>
+<p><code> * *Issuing Body:* Mahkamah Agung RI (Office of the Chief Justice &amp; Pustrajak)</code><br />
+<code> * *Instrument Reference:* Master Directives on Secure AI Research Workbenches and Knowledge Management</code><br />
+<code> * *Legal Principle:* Pustrajak research teams are authorized to utilize NotebookLM secure workspaces for preliminary document synthesis and Naskah Akademik drafting, provided strict source grounding and citation verification are maintained.</code><br />
+<code> * *Why It Matters:* Exponentially increased research productivity while maintaining absolute source integrity.</code><br />
+<code> * *Official Source:* Mahkamah Agung Institutional Reports.</code></p>
+<h2 id="key-legislation--standards">Key Legislation &amp; Standards</h2>
+<ul>
+<li>Instrument: Center for Legal and Judicial Policy Strategy (Pustrajak) Knowledge Management Guidelines.</li>
+<li>Instrument: Rule of Law 2045 Master Strategic Roadmap.</li>
+<li>Instrument: Law No. 48 of 2009 on Judicial Power.</li>
+</ul>
+<h2 id="timeline">Timeline</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Milestone / Knowledge Tech Event</th>
+<th>Significance</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>2022-12-01</strong></td>
+<td>Centralization of Pustrajak Knowledge Repositories</td>
+<td>Standardized research drafting and document management under Pustrajak.</td>
+</tr>
+<tr class="even">
+<td><strong>2026-07-15</strong></td>
+<td>Adoption of NotebookLM for Pustrajak 2026 Studies</td>
+<td>Standardized the use of source-grounded AI workspaces for drafting major policy papers and legislative reviews (*RUU Jabatan Hakim*).</td>
+</tr>
+<tr class="odd">
+<td><strong>2026-08-01</strong></td>
+<td>Integration with Judicial Knowledge Hub</td>
+<td>Linked NotebookLM research workflows directly into the centralized institutional knowledge architecture.</td>
+</tr>
+<tr class="even">
+<td><strong>2045-08-18</strong></td>
+<td>Golden Indonesia Centenary Target</td>
+<td>Full realization of an advanced, AI-augmented institutional knowledge ecosystem for *Indonesia Emas 2045*.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="debates--controversies">Debates &amp; Controversies</h2>
+<ul>
+<li>Debate: Cloud-Based AI Research Workbenches vs. Strictly Local On-Premise Servers</li>
+</ul>
+<p><code> * *Position A (Cloud-Based AI Workbenches):* Cloud tools like NotebookLM offer unmatched processing speed, superior natural language synthesis, and seamless collaboration across research teams.</code><br />
+<code> * *Position B (Local On-Premise Servers):* Government legal research demands strictly isolated, local on-premise servers to prevent any potential exposure of sensitive institutional data.</code><br />
+<code> * *Evidence:* Global cybersecurity debates in public sector cloud adoption.</code><br />
+<code> * *Current Status:* Harmonized under Pustrajak governance: NotebookLM is deployed strictly for anonymized policy research, academic drafting, and public domain document analysis, while classified judicial dockets remain secured within sovereign on-premise SIPP infrastructure.</code></p>
+<h2 id="rule-of-law-connection">Rule-of-Law Connection</h2>
+<ul>
+<li>*Epistemic Transparency:* Source-grounded AI research ensures that every policy recommendation is traceable to verifiable legal texts, reinforcing transparency and the rule of law (*Rechtsstaat*).</li>
+<li>*Scholarly Rigor:* Eliminates speculative AI errors, ensuring court research is conducted with absolute scientific precision.</li>
+</ul>
+<h2 id="ai--future-of-law">AI &amp; Future of Law</h2>
+<ul>
+<li>*Automated Multi-Notebook Synthesis:* AI models connecting insights across multiple distinct research notebooks to discover systemic links between civil procedure, criminal reform, and judicial ethics.</li>
+<li>*Instant Jurisprudential Knowledge Graphs:* Transforming uploaded notebook sources into interactive visual relationship maps for legal researchers.</li>
+</ul>
+<h2 id="common-misconceptions">Common Misconceptions</h2>
+<ul>
+<li>*Myth:* NotebookLM is a public social media chat app where anyone can upload arbitrary files and change official Supreme Court laws.</li>
+</ul>
+<p><code> * *Reality:* NotebookLM is a secure, private AI research workbench used exclusively by authorized institutional researchers and *Hakim Yustisial* to synthesize uploaded documents.</code><br />
+<code> * *Source:* Pustrajak Knowledge Management Directives.</code></p>
+<ul>
+<li>*Myth:* NotebookLM generates answers from the open internet without any source documents.</li>
+</ul>
+<p><code> * *Reality:* NotebookLM operates on strict source-grounded RAG principles; if a source document is not uploaded to the notebook, the AI cannot use it or cite it.</code><br />
+<code> * *Source:* System Design Specifications.</code></p>
+<h2 id="practical-example">Practical Example</h2>
+<ul>
+<li>*Scenario:* A research team at Pustrajak is assigned to draft a comprehensive 100-page academic review (*Naskah Akademik*) comparing civil conciliation models and needs to analyze ten distinct international legal treaties and court reports simultaneously.</li>
+<li>*Question:* How does NotebookLM facilitate the task?</li>
+<li>*Applicable Principle:* Source-Grounded RAG Workspaces (NotebookLM Architecture).</li>
+<li>*Analysis:*</li>
+</ul>
+<p><code> 1. Researchers create a secure "Comparative Conciliation Study" notebook in NotebookLM.</code><br />
+<code> 2. Upload all ten international treaties and comparative reports into the workspace.</code><br />
+<code> 3. Query the notebook to synthesize thematic commonalities, extract key procedural differences, and generate executive briefing notes with precise page citations.</code></p>
+<ul>
+<li>*Result:* Document synthesis time is reduced from weeks of manual cross-referencing to hours of precise RAG-assisted analysis.</li>
+<li>*Limitation:* NotebookLM provides lightning-fast document synthesis, but researchers must perform final qualitative editing and normative legal drafting.</li>
+</ul>
+<h2 id="key-terms">Key Terms</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>Definition</th>
+<th>Related Term</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>NotebookLM</strong></td>
+<td>An advanced AI research assistant and workspace that grounds RAG responses strictly in user-uploaded source files.</td>
+<td>RAG AI, Knowledge Management</td>
+</tr>
+<tr class="even">
+<td><strong>Source Grounding</strong></td>
+<td>The technical constraint ensuring an AI model generates responses exclusively from provided reference documents.</td>
+<td>Anti-Hallucination, Epistemics</td>
+</tr>
+<tr class="odd">
+<td><strong>Single Source of Truth</strong></td>
+<td>A centralized repository where all verified research documents and data for a specific project are stored.</td>
+<td>Repository, Knowledge Hub</td>
+</tr>
+<tr class="even">
+<td><strong>Citation Mapping</strong></td>
+<td>Linking generated AI insights directly to specific inline citations within source reference files.</td>
+<td>Auditability, Transparency</td>
+</tr>
+</tbody>
+</table>
+<h2 id="related-wiki-pages">Related Wiki Pages</h2>
+<ul>
+<li><a href="AI_-_JUDICIARY.html">AI &amp; JUDICIARY</a></li>
+<li><a href="AI_Legal_Research.html">AI Legal Research</a></li>
+<li><a href="Judicial_Knowledge_Hub.html">Judicial Knowledge Hub</a></li>
+<li><a href="Center_for_Legal_and_Judicial_Policy_Strategy_-Pustrajak.html">Center for Legal and Judicial Policy Strategy (Pustrajak)</a></li>
+<li><a href="Supreme_Court_of_Indonesia_-Mahkamah_Agung_RI.html">Supreme Court of Indonesia (Mahkamah Agung RI)</a></li>
+<li><a href="RESEARCH.html">RESEARCH</a></li>
+<li></li>
+</ul>
+<h2 id="knowledge-relationships">Knowledge Relationships</h2>
+<ul>
+<li><strong>NotebookLM</strong> → *is a tool of* → <a href="AI_-_JUDICIARY.html">AI &amp; JUDICIARY</a> &amp; <a href="AI_Legal_Research.html">AI Legal Research</a></li>
+<li><strong>NotebookLM</strong> → *managed by* → <a href="Center_for_Legal_and_Judicial_Policy_Strategy_-Pustrajak.html">Center for Legal and Judicial Policy Strategy (Pustrajak)</a> &amp; <a href="Supreme_Court_of_Indonesia_-Mahkamah_Agung_RI.html">Supreme Court of Indonesia (Mahkamah Agung RI)</a></li>
+<li><strong>NotebookLM</strong> → *feeds research into* → <a href="RESEARCH.html">RESEARCH</a> &amp; <a href="Judicial_Knowledge_Hub.html">Judicial Knowledge Hub</a></li>
+<li><strong>NotebookLM</strong> → *aligns with* → <a href="Master_Epistemic_-_Quality_Control_Standard.html">Master Epistemic &amp; Quality Control Standard</a></li>
+<li><strong>NotebookLM</strong> → *upholds principles of* → <a href="Law_No._48-2009_-Judicial_Power.html">Law No. 48/2009 (Judicial Power)</a> &amp; <a href="1945_Constitution_of_Indonesia_-Article_24.html">1945 Constitution of Indonesia (Article 24)</a></li>
+</ul>
+<h2 id="sources">Sources</h2>
+<h3 id="tier-1--official--primary-sources">Tier 1 — Official / Primary Sources</h3>
+<ol type="1">
+<li>Center for Legal and Judicial Policy Strategy (Pustrajak), *Master Knowledge Management and AI Research Workbench Standards*, Mahkamah Agung RI, 2026.</li>
+<li>Supreme Court of Indonesia, *Master Legal Informatics and Electronic Research Directives*, Biro Hukum dan Humas MA RI.</li>
+<li>Law No. 48 of 2009 on Judicial Power.</li>
+</ol>
+<h3 id="tier-2--academic--institutional-sources">Tier 2 — Academic &amp; Institutional Sources</h3>
+<ol type="1">
+<li>Mahkamah Agung RI, *Buku Pedoman Pengelolaan Pengetahuan dan Riset Berbasis Kecerdasan Buatan*, Badan Litbang Diklat Kumdil.</li>
+<li>Pustrajak Mahkamah Agung RI, *Kajian Pemanfaatan NotebookLM dan Workspace RAG dalam Riset Peradilan Menuju 2045*, 2026.</li>
+</ol>
+<h2 id="update-log">Update Log</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Status</th>
+<th>Change Summary</th>
+<th>Source / Authority</th>
+<th>Editor</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>2026-08-27</strong></td>
+<td><strong>NEW</strong></td>
+<td>Canonical master wiki knowledge baseline generated for NotebookLM.</td>
+<td>Mahkamah Agung RI / Pustrajak Master Wiki Standard</td>
+<td>Judicial Knowledge Architect</td>
+</tr>
+</tbody>
+</table>
+<h2 id="review-status">Review Status</h2>
+<ul>
+<li><strong>Current Status:</strong> Active &amp; Verified</li>
+<li><strong>Review Trigger:</strong> Updates to Google NotebookLM features, revisions to Supreme Court research security policies, or major expansions of institutional RAG search workspaces.</li>
+</ul>
+<h2 id="seo--ai-metadata">SEO &amp; AI Metadata</h2>
+<ul>
+<li><strong>SEO Title:</strong> NotebookLM: Knowledge Repositories &amp; RAG Research AI | Hub</li>
+<li><strong>Meta Description:</strong> Definitive wiki reference for NotebookLM covering centralized knowledge repositories, source-grounded RAG workspaces, AI research assistants, and epistemic vaults.</li>
+<li><strong>Primary Entity:</strong> NotebookLM Knowledge Management &amp; Research Architecture</li>
+<li><strong>Primary Topic:</strong> Centralized Knowledge Repositories, RAG Source Grounding, AI Research Assistant, and Master Epistemic Vaults</li>
+<li><strong>Alternative Terms:</strong> NotebookLM Indonesia Judiciary, Pustrajak AI Research Workbench, Source-Grounded RAG Pustrajak.</li>
+<li><strong>Questions Answered:</strong>
+<ul>
+<li>What is the NotebookLM architecture and how do source-grounded RAG workspaces operate within Pustrajak research?</li>
+<li>How do anti-hallucination safeguards and precise citation mapping protect Supreme Court academic drafts?</li>
+<li>How does NotebookLM integrate with the Research Hub and Judicial Knowledge Hub under Rule of Law 2045?</li>
+</ul></li>
+</ul>
+<div class="cite"><b>Cite this page</b><br>Mustafa, C. (2026). NotebookLM. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/NotebookLM.html<br><b>Author</b>: Cecep Mustafa, IJC, ORCID <a href="https://orcid.org/0000-0003-0037-497X">0000-0003-0037-497X</a> · <b>Licence</b>: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></main><footer>
+Author: <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC), ORCID 0000-0003-0037-497X.
+Licence: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Source: <a href="https://judicialknowledge.miraheze.org/wiki/Main_Page">Judicial Knowledge Hub wiki</a>.
+Code and data: <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub">GitHub</a> · <a href="https://www.kaggle.com/datasets/judicialcollege/judicial-knowledge-hub-wiki-export-cecep-mustafa">Kaggle</a> · <a href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/llms.txt">llms.txt</a>.
+Personal data of private persons has been removed or replaced by role. Working knowledge-management notes, not official court publications.
+</footer></body></html>

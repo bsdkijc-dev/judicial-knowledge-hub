@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Digital forensics — Judicial Knowledge Hub (Cecep Mustafa, IJC)</title>
+<meta name="description" content="Digital forensics (sometimes known as digital forensic science ) is a branch of forensic science encompassing the recovery, investigation, examination, and analysis of material found in digital devices, often in relation to cybercrime. The term digit">
+<meta name="author" content="Cecep Mustafa (Indonesian Judicial College, IJC)">
+<meta name="DC.creator" content="Mustafa, Cecep"><meta name="DC.rights" content="CC BY-SA 4.0">
+<link rel="canonical" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Digital_forensics.html"><link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><link rel="author" href="https://orcid.org/0000-0003-0037-497X">
+<link rel="alternate" type="text/markdown" href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/Digital_forensics.md">
+<meta property="og:title" content="Digital forensics — Judicial Knowledge Hub (Cecep Mustafa, IJC)"><meta property="og:description" content="Digital forensics (sometimes known as digital forensic science ) is a branch of forensic science encompassing the recovery, investigation, examination, and analysis of material found in digital devices, often in relation to cybercrime. The term digit">
+<meta property="og:url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Digital_forensics.html"><meta property="og:type" content="article">
+<meta name="citation_title" content="Digital forensics"><meta name="citation_author" content="Mustafa, Cecep"><meta name="citation_author_institution" content="Indonesian Judicial College (IJC)"><meta name="citation_author_orcid" content="https://orcid.org/0000-0003-0037-497X"><meta name="citation_publication_date" content="2026/06/06"><meta name="citation_inbook_title" content="Judicial Knowledge Hub"><meta name="citation_publisher" content="Indonesian Judicial College (IJC)"><meta name="citation_public_url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Digital_forensics.html"><meta name="DC.title" content="Digital forensics"><meta name="DC.date" content="2026-06-06">
+<style>
+:root{--fg:#1c2430;--mut:#5b6675;--bg:#fff;--acc:#0b2545;--gold:#b8901f;--line:#e3e7ee;--box:#f6f8fb}
+@media (prefers-color-scheme:dark){:root{--fg:#e8ecf2;--mut:#9aa6b6;--bg:#11161d;--acc:#8fb3e8;--gold:#d4af37;--line:#2a3340;--box:#18202a}}
+*{box-sizing:border-box}body{margin:0;font:17px/1.6 Georgia,'Times New Roman',serif;color:var(--fg);background:var(--bg)}
+header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{border-bottom:3px solid var(--gold);padding-top:18px;padding-bottom:10px}
+header a.home{font:600 15px/1.3 system-ui,sans-serif;color:var(--acc);text-decoration:none;letter-spacing:.02em}
+.by{font:14px/1.5 system-ui,sans-serif;color:var(--mut);margin:.3em 0 1.2em}
+h1{font-size:1.9em;line-height:1.25;margin:.6em 0 .2em;color:var(--acc)}
+h2,h3{color:var(--acc)} a{color:var(--acc)}
+table{border-collapse:collapse;display:block;overflow-x:auto;font-size:.92em}td,th{border:1px solid var(--line);padding:4px 8px;vertical-align:top}
+pre,code{font-size:.86em;background:var(--box);border-radius:4px}pre{padding:10px;overflow-x:auto;white-space:pre-wrap}
+blockquote{border-left:4px solid var(--gold);margin-left:0;padding-left:14px;color:var(--mut)}
+.cite{background:var(--box);border:1px solid var(--line);border-radius:8px;padding:12px 16px;font:14px/1.55 system-ui,sans-serif;margin:2em 0}
+.cite b{color:var(--acc)} footer{border-top:1px solid var(--line);margin-top:3em;padding:16px 20px 40px;font:13px/1.6 system-ui,sans-serif;color:var(--mut)}
+input#q{width:100%;padding:10px 12px;font:16px system-ui,sans-serif;border:1px solid var(--line);border-radius:8px;background:var(--box);color:var(--fg)}
+ul.idx{columns:2;column-gap:28px;padding-left:18px;font:15px/1.5 system-ui,sans-serif}@media(max-width:700px){ul.idx{columns:1}}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Digital_forensics.html", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Digital_forensics.html", "headline": "Digital forensics", "name": "Digital forensics", "description": "Digital forensics (sometimes known as digital forensic science ) is a branch of forensic science encompassing the recovery, investigation, examination, and analysis of material found in digital devices, often in relation to cybercrime. The term digit", "author": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "creator": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "publisher": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}, "copyrightHolder": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "dateModified": "2026-06-06T10:13:40Z", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "inLanguage": "en", "isPartOf": {"@type": "Dataset", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/#dataset", "name": "Judicial Knowledge Hub", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/"}, "isBasedOn": "https://judicialknowledge.miraheze.org/wiki/Digital_forensics", "identifier": "wiki-page-22-rev-27", "citation": "Mustafa, C. (2026). Digital forensics. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Digital_forensics.html", "encodingFormat": "text/html"}</script></head><body>
+<header><a class="home" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/">JUDICIAL KNOWLEDGE HUB · by Cecep Mustafa (IJC)</a></header><main><h1>Digital forensics</h1><p class="by">By <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC) · revision 27, 2026-06-06 · <a href="https://judicialknowledge.miraheze.org/wiki/Digital_forensics">wiki source</a> · <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/Digital_forensics.md">Markdown</a></p><p><strong>Digital forensics</strong> (sometimes known as <strong>digital forensic science</strong>) is a branch of <a href="https://judicialknowledge.miraheze.org/wiki/forensic_science">forensic science</a> encompassing the recovery, investigation, examination, and analysis of material found in digital devices, often in relation to <a href="https://judicialknowledge.miraheze.org/wiki/cybercrime">cybercrime</a>. The term digital forensics was originally used as a synonym for <em>computer forensics</em> but has expanded to cover investigation of all devices capable of storing digital data (including mobile devices, cloud infrastructure, and IoT devices).</p>
+<h2 id="history">History</h2>
+<p>Prior to the 1980s, crimes involving computers were dealt with using existing laws. The first computer crimes were recognized in the <a href="https://judicialknowledge.miraheze.org/wiki/Computer_Fraud_and_Abuse_Act">Computer Fraud and Abuse Act</a> of 1986 in the United States. During the 1990s, the field grew organically as law enforcement agencies formed specialized units, such as the <a href="https://judicialknowledge.miraheze.org/wiki/Federal_Bureau_of_Investigation">FBI's</a> Computer Analysis and Response Team (CART).</p>
+<p>The term "digital forensics" emerged in the early 2000s as the discipline standardized under bodies like the International Organization for Standardization (ISO), leading to the publication of standards such as <a href="ISO-IEC_27037.html">ISO/IEC 27037</a> for digital evidence handling.</p>
+<h2 id="forensic-process">Forensic process</h2>
+<p>The digital forensic process is generally divided into several distinct phases, ensuring that investigations are repeatable and legally defensible.</p>
+<h3 id="1-identification">1. Identification</h3>
+<p>The first step involves identifying potential sources of evidence, which may include desktop computers, smartphones, external storage media, and cloud application logs. Investigators must also identify volatility—data stored in <a href="https://judicialknowledge.miraheze.org/wiki/Random-access_memory">RAM</a> that will be lost if the device loses power.</p>
+<h3 id="2-preservation">2. Preservation</h3>
+<p>Data must be isolated and preserved to prevent tampering or modification.</p>
+<ul>
+<li><strong>Live Acquisition:</strong> Extracting volatile data (RAM) from a system while it is running.</li>
+<li><strong>Dead Acquisition:</strong> Creating a bit-stream image of a storage device after it has been powered down.</li>
+</ul>
+<p>Forensic software utilizes a verification process using <a href="Cryptographic_hash_function.html">cryptographic hash functions</a>. For an acquired data set <span class="math inline"><em>D</em></span>, the integrity is validated if the acquisition hash <span class="math inline"><em>h</em>(<em>D</em><sub><em>o</em><em>r</em><em>i</em><em>g</em></sub>)</span> matches the analysis hash <span class="math inline"><em>h</em>(<em>D</em><sub><em>c</em><em>o</em><em>p</em><em>y</em></sub>)</span>.</p>
+<h3 id="3-analysis">3. Analysis</h3>
+<p>During analysis, the investigator recovers latent evidence using specialized software tools. Common techniques include:</p>
+<ul>
+<li><strong>File carving:</strong> Reassembling files from raw data blocks based on file headers and footers, ignoring file system structures.</li>
+<li><strong>Keyword searching:</strong> Scanning raw image files for specific strings or patterns.</li>
+<li><strong>Registry analysis:</strong> Examining operating system configurations to identify user activity, connected hardware, and executed programs.</li>
+</ul>
+<h3 id="4-reporting">4. Reporting</h3>
+<p>The conclusions of the analysis are compiled into a formal report. The report must be detailed enough to allow another independent forensic examiner to replicate the steps and achieve identical results.</p>
+<h2 id="branches-of-digital-forensics">Branches of digital forensics</h2>
+<p>Because the digital landscape is vast, the discipline is divided into several specialized sub-branches:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Branch</th>
+<th>Primary Focus</th>
+<th>Common Artifacts Evaluated</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Computer Forensics</strong></td>
+<td>Desktop systems, laptops, and local storage media.</td>
+<td><a href="https://judicialknowledge.miraheze.org/wiki/File_system">File systems</a> (NTFS, ext4), registry files, system logs.</td>
+</tr>
+<tr class="even">
+<td><strong>Mobile Forensics</strong></td>
+<td>Smartphones, tablets, and wearable technology.</td>
+<td>Call logs, SMS text messages, <a href="https://judicialknowledge.miraheze.org/wiki/GPS">GPS</a> coordinates, application data.</td>
+</tr>
+<tr class="odd">
+<td><strong>Network Forensics</strong></td>
+<td>Monitoring and analysis of network traffic.</td>
+<td><a href="https://judicialknowledge.miraheze.org/wiki/Packet_capture">Packet capture</a> (PCAP) files, firewall logs, proxy records.</td>
+</tr>
+<tr class="even">
+<td><strong>Database Forensics</strong></td>
+<td>Investigations targeting database management systems.</td>
+<td>Transaction logs, database files (e.g., MDF, DB), <a href="https://judicialknowledge.miraheze.org/wiki/SQL">SQL</a> query histories.</td>
+</tr>
+<tr class="odd">
+<td><strong>Cloud Forensics</strong></td>
+<td>Data residing in cloud environments (IaaS, PaaS, SaaS).</td>
+<td>API access logs, virtual machine snapshots, cloud provider storage.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="legal-admissibility">Legal admissibility</h2>
+<p>For digital evidence to be admitted in a court of law, it must satisfy strict legal guidelines. In the United States, evidence must pass the <a href="https://judicialknowledge.miraheze.org/wiki/Daubert_standard">Daubert standard</a> or the <a href="https://judicialknowledge.miraheze.org/wiki/Frye_standard">Frye standard</a>, demonstrating that the forensic methods used are generally accepted within the scientific community.</p>
+<p>Maintaining a flawless <a href="Chain_of_custody.html">chain of custody</a>—documenting exactly who possessed, transferred, and analyzed the evidence at every second—is mandatory to prevent claims of evidence contamination.</p>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="Anti-forensics.html">Anti-forensics</a></li>
+<li><a href="Chain_of_custody.html">Chain of custody</a></li>
+<li><a href="Cryptographic_hash_function.html">Cryptographic hash function</a></li>
+<li><a href="https://judicialknowledge.miraheze.org/wiki/Information_security">Information security</a></li>
+<li><a href="Write_blocker.html">Write blocker</a></li>
+</ul>
+<h2 id="references">References</h2>
+<h2 id="external-links">External links</h2>
+<ul>
+<li><a href="https://www.iso.org/standard/53033.html">ISO/IEC 27037:2012 — Guidelines for identification, collection, acquisition and preservation of digital evidence</a></li>
+</ul>
+<p><a href="https://judicialknowledge.miraheze.org/wiki/Category:Digital_forensics">Category:Digital forensics</a> <a href="https://judicialknowledge.miraheze.org/wiki/Category:Forensic_science">Category:Forensic science</a> <a href="https://judicialknowledge.miraheze.org/wiki/Category:Computer_security">Category:Computer security</a></p>
+<div class="cite"><b>Cite this page</b><br>Mustafa, C. (2026). Digital forensics. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Digital_forensics.html<br><b>Author</b>: Cecep Mustafa, IJC, ORCID <a href="https://orcid.org/0000-0003-0037-497X">0000-0003-0037-497X</a> · <b>Licence</b>: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></main><footer>
+Author: <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC), ORCID 0000-0003-0037-497X.
+Licence: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Source: <a href="https://judicialknowledge.miraheze.org/wiki/Main_Page">Judicial Knowledge Hub wiki</a>.
+Code and data: <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub">GitHub</a> · <a href="https://www.kaggle.com/datasets/judicialcollege/judicial-knowledge-hub-wiki-export-cecep-mustafa">Kaggle</a> · <a href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/llms.txt">llms.txt</a>.
+Personal data of private persons has been removed or replaced by role. Working knowledge-management notes, not official court publications.
+</footer></body></html>

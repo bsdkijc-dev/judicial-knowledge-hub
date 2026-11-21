@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Data erasure — Judicial Knowledge Hub (Cecep Mustafa, IJC)</title>
+<meta name="description" content="Data erasure (sometimes referred to as data sanitization , data clearing , or software overwriting ) is a software-based method of securely overwriting data that aims to completely destroy all electronic data residing on a hard disk drive (HDD), soli">
+<meta name="author" content="Cecep Mustafa (Indonesian Judicial College, IJC)">
+<meta name="DC.creator" content="Mustafa, Cecep"><meta name="DC.rights" content="CC BY-SA 4.0">
+<link rel="canonical" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Data_erasure.html"><link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><link rel="author" href="https://orcid.org/0000-0003-0037-497X">
+<link rel="alternate" type="text/markdown" href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/Data_erasure.md">
+<meta property="og:title" content="Data erasure — Judicial Knowledge Hub (Cecep Mustafa, IJC)"><meta property="og:description" content="Data erasure (sometimes referred to as data sanitization , data clearing , or software overwriting ) is a software-based method of securely overwriting data that aims to completely destroy all electronic data residing on a hard disk drive (HDD), soli">
+<meta property="og:url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Data_erasure.html"><meta property="og:type" content="article">
+<meta name="citation_title" content="Data erasure"><meta name="citation_author" content="Mustafa, Cecep"><meta name="citation_author_institution" content="Indonesian Judicial College (IJC)"><meta name="citation_author_orcid" content="https://orcid.org/0000-0003-0037-497X"><meta name="citation_publication_date" content="2026/06/06"><meta name="citation_inbook_title" content="Judicial Knowledge Hub"><meta name="citation_publisher" content="Indonesian Judicial College (IJC)"><meta name="citation_public_url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Data_erasure.html"><meta name="DC.title" content="Data erasure"><meta name="DC.date" content="2026-06-06">
+<style>
+:root{--fg:#1c2430;--mut:#5b6675;--bg:#fff;--acc:#0b2545;--gold:#b8901f;--line:#e3e7ee;--box:#f6f8fb}
+@media (prefers-color-scheme:dark){:root{--fg:#e8ecf2;--mut:#9aa6b6;--bg:#11161d;--acc:#8fb3e8;--gold:#d4af37;--line:#2a3340;--box:#18202a}}
+*{box-sizing:border-box}body{margin:0;font:17px/1.6 Georgia,'Times New Roman',serif;color:var(--fg);background:var(--bg)}
+header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{border-bottom:3px solid var(--gold);padding-top:18px;padding-bottom:10px}
+header a.home{font:600 15px/1.3 system-ui,sans-serif;color:var(--acc);text-decoration:none;letter-spacing:.02em}
+.by{font:14px/1.5 system-ui,sans-serif;color:var(--mut);margin:.3em 0 1.2em}
+h1{font-size:1.9em;line-height:1.25;margin:.6em 0 .2em;color:var(--acc)}
+h2,h3{color:var(--acc)} a{color:var(--acc)}
+table{border-collapse:collapse;display:block;overflow-x:auto;font-size:.92em}td,th{border:1px solid var(--line);padding:4px 8px;vertical-align:top}
+pre,code{font-size:.86em;background:var(--box);border-radius:4px}pre{padding:10px;overflow-x:auto;white-space:pre-wrap}
+blockquote{border-left:4px solid var(--gold);margin-left:0;padding-left:14px;color:var(--mut)}
+.cite{background:var(--box);border:1px solid var(--line);border-radius:8px;padding:12px 16px;font:14px/1.55 system-ui,sans-serif;margin:2em 0}
+.cite b{color:var(--acc)} footer{border-top:1px solid var(--line);margin-top:3em;padding:16px 20px 40px;font:13px/1.6 system-ui,sans-serif;color:var(--mut)}
+input#q{width:100%;padding:10px 12px;font:16px system-ui,sans-serif;border:1px solid var(--line);border-radius:8px;background:var(--box);color:var(--fg)}
+ul.idx{columns:2;column-gap:28px;padding-left:18px;font:15px/1.5 system-ui,sans-serif}@media(max-width:700px){ul.idx{columns:1}}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Data_erasure.html", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Data_erasure.html", "headline": "Data erasure", "name": "Data erasure", "description": "Data erasure (sometimes referred to as data sanitization , data clearing , or software overwriting ) is a software-based method of securely overwriting data that aims to completely destroy all electronic data residing on a hard disk drive (HDD), soli", "author": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "creator": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "publisher": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}, "copyrightHolder": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "dateModified": "2026-06-06T10:21:00Z", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "inLanguage": "en", "isPartOf": {"@type": "Dataset", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/#dataset", "name": "Judicial Knowledge Hub", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/"}, "isBasedOn": "https://judicialknowledge.miraheze.org/wiki/Data_erasure", "identifier": "wiki-page-24-rev-29", "citation": "Mustafa, C. (2026). Data erasure. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Data_erasure.html", "encodingFormat": "text/html"}</script></head><body>
+<header><a class="home" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/">JUDICIAL KNOWLEDGE HUB · by Cecep Mustafa (IJC)</a></header><main><h1>Data erasure</h1><p class="by">By <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC) · revision 29, 2026-06-06 · <a href="https://judicialknowledge.miraheze.org/wiki/Data_erasure">wiki source</a> · <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/Data_erasure.md">Markdown</a></p><p><strong>Data erasure</strong> (sometimes referred to as <strong>data sanitization</strong>, <strong>data clearing</strong>, or <strong>software overwriting</strong>) is a software-based method of securely overwriting data that aims to completely destroy all electronic data residing on a <a href="https://judicialknowledge.miraheze.org/wiki/hard_disk_drive">hard disk drive</a> (HDD), <a href="https://judicialknowledge.miraheze.org/wiki/solid-state_drive">solid-state drive</a> (SSD), or other digital media.</p>
+<p>Unlike simple file deletion or drive formatting—which only remove pointers to the data, leaving the actual files recoverable by <a href="Digital_forensics.html">digital forensics</a> tools—true data erasure ensures that the target data is completely unrecoverable, rendering the storage medium safe for reuse, resale, or recycling.</p>
+<h2 id="mechanism">Mechanism</h2>
+<p>The fundamental mechanism of data erasure involves writing a stream of non-destructive data across every addressable sector of a storage device. Typically, this stream consists of binary zeroes (`0x00`), binary ones (`0xFF`), or completely random pseudo-noise patterns.</p>
+<p>By overwriting the physical sectors, the residual magnetic or electrical charges that represented the original data are replaced. This process directly counters <a href="https://judicialknowledge.miraheze.org/wiki/file_carving">file carving</a> and advanced laboratory hardware recovery techniques, such as magnetic force microscopy.</p>
+<h2 id="standards-and-protocols">Standards and protocols</h2>
+<p>Various government, military, and independent organizations have established standards for data erasure, defining the number of overwriting passes and the specific patterns required to certify a drive as sanitized.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Standard</th>
+<th>Origin</th>
+<th>Number of passes</th>
+<th>Overwrite pattern sequence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>DoD 5220.22-M</strong></td>
+<td>U.S. Department of Defense</td>
+<td>3 passes</td>
+<td>Pass 1: Fixed character (e.g., zeros); Pass 2: Complement (ones); Pass 3: Random character, followed by verification.</td>
+</tr>
+<tr class="even">
+<td><strong>NIST SP 800-88 Rev. 1</strong></td>
+<td>National Institute of Standards and Technology</td>
+<td>1 or more</td>
+<td>Emphasizes "Clear" (logical overwrite) and "Purge" (low-level commands) based on media type. Currently the industry standard.</td>
+</tr>
+<tr class="odd">
+<td><strong>Gutmann method</strong></td>
+<td>Peter Gutmann (1996)</td>
+<td>35 passes</td>
+<td>Designed for older MFM/RLL magnetic drives; includes 4 random passes, 27 specific patterns, and 4 final random passes. Highly redundant for modern hardware.</td>
+</tr>
+<tr class="even">
+<td><strong>British HMG IS5</strong></td>
+<td>United Kingdom</td>
+<td>1 or 3 passes</td>
+<td>Baseline uses 1 pass of zeroes; Enhanced uses 3 passes (zeroes, ones, random) with verification.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="challenges-with-modern-hardware">Challenges with modern hardware</h2>
+<p>While traditional data erasure standards were optimized for magnetic <a href="https://judicialknowledge.miraheze.org/wiki/hard_disk_drive">hard disk drives</a>, modern storage technology has introduced significant hurdles to software-based overwriting.</p>
+<h3 id="solid-state-drives-ssds">Solid-state drives (SSDs)</h3>
+<p><a href="https://judicialknowledge.miraheze.org/wiki/Solid-state_drive">SSDs</a> utilize <a href="https://judicialknowledge.miraheze.org/wiki/flash_memory">flash memory</a> managed by an onboard flash translation layer (FTL) controller. Due to architectures designed for efficiency and longevity—such as <strong><a href="https://judicialknowledge.miraheze.org/wiki/wear_leveling">wear leveling</a></strong> and over-provisioning—software utilities cannot directly target physical blocks on the drive. Standard file-shredding or linear overwriting programs often leave data remnants untouched in hidden or reallocated blocks.</p>
+<p>To securely erase an SSD, operators must trigger hardware-level commands built into the drive's firmware by the manufacturer:</p>
+<ul>
+<li><strong>ATA Secure Erase:</strong> A command that applies a voltage spike to all available NAND cells simultaneously, purging data in a single operation.</li>
+<li><strong>NVMe Format / Sanitize:</strong> Modern commands optimized for Non-Volatile Memory Express drives to clear encryption keys (Crypto Erase) or block allocation tables natively.</li>
+</ul>
+<h2 id="data-erasure-vs-physical-destruction">Data erasure vs. physical destruction</h2>
+<p>Data erasure is often contrasted with physical destruction methods, such as <a href="Degaussing.html">degaussing</a>, physical shredding, or disintegration.</p>
+<p>The primary advantage of software-based data erasure is <strong>sustainability and economic value</strong>; the hardware remains fully functional and can be safely redeployed or sold on the secondary market. Physical destruction, by contrast, creates electronic waste (<a href="https://judicialknowledge.miraheze.org/wiki/e-waste">e-waste</a>) and completely destroys the capital value of the hardware, though it remains favored for ultra-high-security military applications.</p>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="Anti-forensics.html">Anti-forensics</a></li>
+<li><a href="Digital_forensics.html">Digital forensics</a></li>
+<li><a href="Degaussing.html">Degaussing</a></li>
+<li><a href="https://judicialknowledge.miraheze.org/wiki/Hardware_security">Hardware security</a></li>
+<li><a href="Remanence.html">Data remanence</a></li>
+</ul>
+<h2 id="references">References</h2>
+<p><a href="https://judicialknowledge.miraheze.org/wiki/Category:Computer_security">Category:Computer security</a> <a href="https://judicialknowledge.miraheze.org/wiki/Category:Data_management">Category:Data management</a> <a href="https://judicialknowledge.miraheze.org/wiki/Category:Data_privacy">Category:Data privacy</a></p>
+<div class="cite"><b>Cite this page</b><br>Mustafa, C. (2026). Data erasure. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Data_erasure.html<br><b>Author</b>: Cecep Mustafa, IJC, ORCID <a href="https://orcid.org/0000-0003-0037-497X">0000-0003-0037-497X</a> · <b>Licence</b>: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></main><footer>
+Author: <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC), ORCID 0000-0003-0037-497X.
+Licence: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Source: <a href="https://judicialknowledge.miraheze.org/wiki/Main_Page">Judicial Knowledge Hub wiki</a>.
+Code and data: <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub">GitHub</a> · <a href="https://www.kaggle.com/datasets/judicialcollege/judicial-knowledge-hub-wiki-export-cecep-mustafa">Kaggle</a> · <a href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/llms.txt">llms.txt</a>.
+Personal data of private persons has been removed or replaced by role. Working knowledge-management notes, not official court publications.
+</footer></body></html>

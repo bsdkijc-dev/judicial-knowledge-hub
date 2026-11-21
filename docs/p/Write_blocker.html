@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Write blocker — Judicial Knowledge Hub (Cecep Mustafa, IJC)</title>
+<meta name="description" content="A write blocker is a specialized tool used in digital forensics that permits read-only access to storage media (such as hard disk drives, solid-state drives, or USB flash drives) while strictly blocking any write commands from being executed on the t">
+<meta name="author" content="Cecep Mustafa (Indonesian Judicial College, IJC)">
+<meta name="DC.creator" content="Mustafa, Cecep"><meta name="DC.rights" content="CC BY-SA 4.0">
+<link rel="canonical" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Write_blocker.html"><link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><link rel="author" href="https://orcid.org/0000-0003-0037-497X">
+<link rel="alternate" type="text/markdown" href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/Write_blocker.md">
+<meta property="og:title" content="Write blocker — Judicial Knowledge Hub (Cecep Mustafa, IJC)"><meta property="og:description" content="A write blocker is a specialized tool used in digital forensics that permits read-only access to storage media (such as hard disk drives, solid-state drives, or USB flash drives) while strictly blocking any write commands from being executed on the t">
+<meta property="og:url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Write_blocker.html"><meta property="og:type" content="article">
+<meta name="citation_title" content="Write blocker"><meta name="citation_author" content="Mustafa, Cecep"><meta name="citation_author_institution" content="Indonesian Judicial College (IJC)"><meta name="citation_author_orcid" content="https://orcid.org/0000-0003-0037-497X"><meta name="citation_publication_date" content="2026/06/06"><meta name="citation_inbook_title" content="Judicial Knowledge Hub"><meta name="citation_publisher" content="Indonesian Judicial College (IJC)"><meta name="citation_public_url" content="https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Write_blocker.html"><meta name="DC.title" content="Write blocker"><meta name="DC.date" content="2026-06-06">
+<style>
+:root{--fg:#1c2430;--mut:#5b6675;--bg:#fff;--acc:#0b2545;--gold:#b8901f;--line:#e3e7ee;--box:#f6f8fb}
+@media (prefers-color-scheme:dark){:root{--fg:#e8ecf2;--mut:#9aa6b6;--bg:#11161d;--acc:#8fb3e8;--gold:#d4af37;--line:#2a3340;--box:#18202a}}
+*{box-sizing:border-box}body{margin:0;font:17px/1.6 Georgia,'Times New Roman',serif;color:var(--fg);background:var(--bg)}
+header,main,footer{max-width:860px;margin:0 auto;padding:0 20px}
+header{border-bottom:3px solid var(--gold);padding-top:18px;padding-bottom:10px}
+header a.home{font:600 15px/1.3 system-ui,sans-serif;color:var(--acc);text-decoration:none;letter-spacing:.02em}
+.by{font:14px/1.5 system-ui,sans-serif;color:var(--mut);margin:.3em 0 1.2em}
+h1{font-size:1.9em;line-height:1.25;margin:.6em 0 .2em;color:var(--acc)}
+h2,h3{color:var(--acc)} a{color:var(--acc)}
+table{border-collapse:collapse;display:block;overflow-x:auto;font-size:.92em}td,th{border:1px solid var(--line);padding:4px 8px;vertical-align:top}
+pre,code{font-size:.86em;background:var(--box);border-radius:4px}pre{padding:10px;overflow-x:auto;white-space:pre-wrap}
+blockquote{border-left:4px solid var(--gold);margin-left:0;padding-left:14px;color:var(--mut)}
+.cite{background:var(--box);border:1px solid var(--line);border-radius:8px;padding:12px 16px;font:14px/1.55 system-ui,sans-serif;margin:2em 0}
+.cite b{color:var(--acc)} footer{border-top:1px solid var(--line);margin-top:3em;padding:16px 20px 40px;font:13px/1.6 system-ui,sans-serif;color:var(--mut)}
+input#q{width:100%;padding:10px 12px;font:16px system-ui,sans-serif;border:1px solid var(--line);border-radius:8px;background:var(--box);color:var(--fg)}
+ul.idx{columns:2;column-gap:28px;padding-left:18px;font:15px/1.5 system-ui,sans-serif}@media(max-width:700px){ul.idx{columns:1}}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Write_blocker.html", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Write_blocker.html", "headline": "Write blocker", "name": "Write blocker", "description": "A write blocker is a specialized tool used in digital forensics that permits read-only access to storage media (such as hard disk drives, solid-state drives, or USB flash drives) while strictly blocking any write commands from being executed on the t", "author": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "creator": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "publisher": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}, "copyrightHolder": {"@type": "Person", "@id": "https://orcid.org/0000-0003-0037-497X", "name": "Cecep Mustafa", "givenName": "Cecep", "familyName": "Mustafa", "sameAs": ["https://orcid.org/0000-0003-0037-497X", "https://github.com/bsdkijc-dev", "https://www.kaggle.com/judicialcollege", "https://bsdkijc-dev.github.io/bsdkijc-dev/"], "affiliation": {"@type": "Organization", "name": "Indonesian Judicial College (IJC)", "alternateName": "IJC"}}, "dateModified": "2026-06-06T10:31:49Z", "license": "https://creativecommons.org/licenses/by-sa/4.0/", "inLanguage": "en", "isPartOf": {"@type": "Dataset", "@id": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/#dataset", "name": "Judicial Knowledge Hub", "url": "https://bsdkijc-dev.github.io/judicial-knowledge-hub/"}, "isBasedOn": "https://judicialknowledge.miraheze.org/wiki/Write_blocker", "identifier": "wiki-page-32-rev-38", "citation": "Mustafa, C. (2026). Write blocker. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Write_blocker.html", "encodingFormat": "text/html"}</script></head><body>
+<header><a class="home" href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/">JUDICIAL KNOWLEDGE HUB · by Cecep Mustafa (IJC)</a></header><main><h1>Write blocker</h1><p class="by">By <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC) · revision 38, 2026-06-06 · <a href="https://judicialknowledge.miraheze.org/wiki/Write_blocker">wiki source</a> · <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub/blob/main/pages/Write_blocker.md">Markdown</a></p><p>A <strong>write blocker</strong> is a specialized tool used in <a href="Digital_forensics.html">digital forensics</a> that permits read-only access to storage media (such as <a href="https://judicialknowledge.miraheze.org/wiki/hard_disk_drive">hard disk drives</a>, <a href="https://judicialknowledge.miraheze.org/wiki/solid-state_drive">solid-state drives</a>, or USB flash drives) while strictly blocking any write commands from being executed on the target device.</p>
+<p>Write blockers are essential for preserving the integrity of digital evidence. During a cybercrime investigation, connecting an evidentiary device directly to a standard forensic workstation without protection can result in the host operating system instantly altering metadata, creating system logs, or overwriting deleted files. The use of a write blocker ensures that data acquisition adheres to a legally defensible <a href="Chain_of_custody.html">chain of custody</a>.</p>
+<h2 id="operational-methodology">Operational methodology</h2>
+<p>Computer operating systems communicate with storage media by sending low-level electrical signals or commands across an interface (such as <a href="https://judicialknowledge.miraheze.org/wiki/SATA">SATA</a>, <a href="https://judicialknowledge.miraheze.org/wiki/NVMe">NVMe</a>, or <a href="https://judicialknowledge.miraheze.org/wiki/USB">USB</a>). These commands are categorized as either "Read commands" (e.g., retrieving file contents or partition tables) or "Write commands" (e.g., modifying files, updating access timestamps, or formatting sectors).</p>
+<p>A write blocker acts as a strict physical or logical barrier between the forensic workstation and the evidence drive. It intercepts the command pipeline, parses each instruction, and applies the following rule logic:</p>
+<ul>
+<li>If the command is a <strong>Read command</strong>, it is allowed to pass through unimpeded, allowing forensic imaging software to copy the data bit-for-bit.</li>
+<li>If the command is a <strong>Write command</strong> (or any command capable of altering the status of the media), the blocker intercepts it, drops the payload, and returns a success or error code to the host system, falsifying the write action without allowing it to reach the physical storage medium.</li>
+</ul>
+<h2 id="classification">Classification</h2>
+<p>Write blockers are broadly classified into two categories: hardware-based and software-based.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Mechanism of action</th>
+<th>Advantages</th>
+<th>Disadvantages</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Hardware Write Blocker</strong> (Forensic Bridges)</td>
+<td>A physical device placed inline between the media and the workstation. Features dedicated onboard firmware to filter signals.</td>
+<td>Completely independent of the host operating system; highly secure; visible physical indicator lights confirm blocking status.</td>
+<td>Expensive; requires matching physical port interfaces; can be bulky for field triage.</td>
+</tr>
+<tr class="even">
+<td><strong>Software Write Blocker</strong></td>
+<td>A specialized driver or software configuration applied directly to the forensic workstation's operating system kernel.</td>
+<td>Highly portable; inexpensive; can scale to block multiple ports simultaneously.</td>
+<td>Dependent on the stability of the host OS; risk of driver failure or human error during configuration.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="validation-in-legal-proceedings">Validation in legal proceedings</h2>
+<p>For digital evidence to be considered <a href="Admissible_evidence.html">admissible evidence</a>, forensic examiners must be able to prove that their tools were operating properly during data acquisition. Organizations such as the <a href="https://judicialknowledge.miraheze.org/wiki/National_Institute_of_Standards_and_Technology">National Institute of Standards and Technology</a> (NIST) maintain a rigorous testing framework for write blockers.</p>
+<p>When a forensic examiner completes a bit-stream image using a write blocker, they calculate a <a href="Cryptographic_hash_function.html">cryptographic hash function</a> (e.g., SHA-256) of the source drive:</p>
+<p><span class="math display"><em>H</em> = <em>h</em>(Source Medium)</span></p>
+<p>If the drive needs to be verified or imaged again later, the resulting hash must be perfectly identical. The use of a validated write blocker provides the legal foundation certifying that the acquisition process did not contaminate the original digital evidence.</p>
+<h2 id="see-also">See also</h2>
+<ul>
+<li><a href="Digital_forensics.html">Digital forensics</a></li>
+<li><a href="Chain_of_custody.html">Chain of custody</a></li>
+<li><a href="Admissible_evidence.html">Admissible evidence</a></li>
+<li><a href="Cryptographic_hash_function.html">Cryptographic hash function</a></li>
+<li><a href="https://judicialknowledge.miraheze.org/wiki/Hard_disk_drive">Hard disk drive</a></li>
+</ul>
+<h2 id="references">References</h2>
+<p><a href="https://judicialknowledge.miraheze.org/wiki/Category:Digital_forensics">Category:Digital forensics</a> <a href="https://judicialknowledge.miraheze.org/wiki/Category:Computer_hardware">Category:Computer hardware</a> <a href="https://judicialknowledge.miraheze.org/wiki/Category:Computer_security">Category:Computer security</a></p>
+<div class="cite"><b>Cite this page</b><br>Mustafa, C. (2026). Write blocker. In Judicial Knowledge Hub. Indonesian Judicial College (IJC). https://bsdkijc-dev.github.io/judicial-knowledge-hub/p/Write_blocker.html<br><b>Author</b>: Cecep Mustafa, IJC, ORCID <a href="https://orcid.org/0000-0003-0037-497X">0000-0003-0037-497X</a> · <b>Licence</b>: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></main><footer>
+Author: <a href="https://orcid.org/0000-0003-0037-497X">Cecep Mustafa</a>, Indonesian Judicial College (IJC), ORCID 0000-0003-0037-497X.
+Licence: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Source: <a href="https://judicialknowledge.miraheze.org/wiki/Main_Page">Judicial Knowledge Hub wiki</a>.
+Code and data: <a href="https://github.com/bsdkijc-dev/judicial-knowledge-hub">GitHub</a> · <a href="https://www.kaggle.com/datasets/judicialcollege/judicial-knowledge-hub-wiki-export-cecep-mustafa">Kaggle</a> · <a href="https://bsdkijc-dev.github.io/judicial-knowledge-hub/llms.txt">llms.txt</a>.
+Personal data of private persons has been removed or replaced by role. Working knowledge-management notes, not official court publications.
+</footer></body></html>

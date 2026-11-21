@@ -1,0 +1,370 @@
+---
+title: "JPW-WORK-000139"
+source_url: https://judicialknowledge.miraheze.org/wiki/JPW-WORK-000139
+revision_id: 1846
+last_edited: 2026-09-25T02:57:20Z
+author: Cecep Mustafa
+affiliation: Indonesian Judicial College (IJC)
+orcid: https://orcid.org/0000-0003-0037-497X
+license: CC-BY-SA-4.0
+redactions: "4 e-mail address(es) removed"
+---
+
+# JPW-WORK-000139
+
+# Wiki Article: Consumer Rights and Consumer Law: Criminal, Civil, and Administrative Aspects (Morillas Cueva & Suárez López, Eds., 2013)
+
+## 1. ENTITY IDENTITY
+
+- **Stable ID**: JPW-WORK-000139
+- **Canonical Name**: Consumer Rights and Consumer Law: Criminal, Civil, and Administrative Aspects (Morillas Cueva & Suárez López, Eds., 2013)
+- **Official Name**: Derecho y consumo. Aspectos penales, civiles y administrativos (Reseña por Samuel Rodríguez Ferrández)
+- **Entity Type**: Collective Research Monograph & Academic Legal Review / Consumer Protection Law Analysis
+- **Aliases**: Morillas Cueva & Suárez López Consumer Law Monograph, Derecho y consumo. Aspectos penales, civiles y administrativos, Estudio multidisciplinar sobre la protección jurídica de los consumidores en España (Proyecto DER2009/12717)
+- **Definition**: \[FACT\] A collective academic research monograph titled \*Derecho y consumo. Aspectos penales, civiles y administrativos\*, directed by Prof. Dr. H. C. Mult. D. Lorenzo Morillas Cueva (Catedrático de Derecho Penal, Universidad de Granada) and coordinated by Dr. José María Suárez López, published by Editorial Dykinson (Madrid, 2013), and reviewed by Dr. Samuel Rodríguez Ferrández (Profesor Ayudante Doctor de Derecho Penal, Universidad de Murcia; email: \`\[email removed\]\`). The work is the primary publication of R&D Research Project DER2009/12717, titled \*"La protección penal del consumidor"\*, funded by the Ministry of Science and Innovation (\*Ministerio de Ciencia e Innovación\*). Comprising 23 chapters structured across 6 thematic parts, the monograph synthesizes multidisciplinary legal research from scholars across the Universities of Granada, Jaén, Almería, Murcia, Alicante, and Sevilla, covering criminal, civil, administrative, criminological, and legal history dimensions of consumer protection in Spain. Key areas evaluated include: (1) legal-historical origins of consumer protection from party autonomy (\*autonomía de la voluntad\*) to state mandate (\*imperativo estatal\*) culminating in the Ley General para la Defensa de los Consumidores y Usuarios of 1984 (Sánchez Aranda); (2) general criminal law concepts, legitimacy of criminal intervention, protected legal goods (\*bienes jurídicos protegidos\*), limiting principles of \*ius puniendi\* (legality, minimal intervention, \*non bis in idem\*), consumer interests in industrial property crimes, and Audiencia Nacional jurisdiction (Valls Prieto, Suárez López, Morillas Cueva, Martínez Ruiz); (3) specific criminal offense types under the Spanish Penal Code (\*Código Penal\*), including misleading advertising (\*publicidad engañosa\*), abusive billing (\*facturación abusiva\*), investor fraud (\*estafa de inversores\*), price alteration machinations (\*maquinaciones para alterar el precio\*), pharmacological offenses (Art. 361 CP), harmful food frauds (\*fraudes alimentarios nocivos\*), livestock feeding with forbidden substances, and water/food adulteration or poisoning (Pérez Ferrer, Macías Espejo, Jiménez Díaz, Lledó Benito, Fernández Pantoja, Castelló Nicás, Benítez Ortúzar, Domínguez Izquierdo, Cruz Blanca); (4) criminological profiling of active subjects in market and consumer offenses (Aguilar Cárceles); (5) administrative sanctioning regimes under Real Decreto Legislativo 1/2007 (TRLGDCU) and administrative law limits/aporias regarding over-criminalization, non bis in idem, and lack of infraction graduation (Terol Gómez, Martín Valdivia); and (6) civil law protection instruments, including consumer arbitration (\*arbitraje de consumo\*), consumer mediation (\*mediación en conflictos de consumo\*), home repair services (\*servicio de reparaciones a domicilio\*), minor protection against TV advertising (\*el menor ante la publicidad televisiva\*), EU Directive 2011/83/EU on consumer rights, and Marketing 2.0 digital consumer protection (Herrera Campos, Orozco Pardo, Herrera de las Heras, Morillas Fernández, De la Iglesia Prados, Moreno Navarrete).
+- **Jurisdiction**: Spain / European Union & Spanish Consumer Protection, Criminal, Administrative, and Civil Law
+- **Issuing Authority / Publisher**: Editorial Dykinson (Madrid, 2013) / Directed by Lorenzo Morillas Cueva & Coordinated by José María Suárez López / Project DER2009/12717 (Ministerio de Ciencia e Innovación) / Book review by Samuel Rodríguez Ferrández (Universidad de Murcia)
+- **Legal Basis**:
+  - **Constitutional & General Consumer Framework**: Spanish Constitution of 1978 (\*Constitución Española\*, Art. 51 - consumer protection); General Consumer and User Protection Law of 1984 (\*Ley 26/1984\*); Revised Text of the General Law for the Protection of Consumers and Users (\*Real Decreto Legislativo 1/2007\*, TRLGDCU).
+  - **Criminal Legislation**: Spanish Penal Code of 1995 (\*Código Penal\*, Arts. 282 - misleading advertising, 283 - abusive billing, 282 bis - investor fraud, 284 - price alteration, 361 - pharmacological crimes, 363–365 - food frauds and water/food adulteration).
+  - **European Union Directives**: Directive 2011/83/EU of the European Parliament and of the Council of 25 October 2011 on consumer rights.
+  - **Special Statutes**: Arbitration Act (\*Ley 60/2003\*); Mediation Act (\*Ley 5/2012\*); regional regulations on home repair services and protection of minors.
+- **Date**: 2013 (Publication by Editorial Dykinson, Madrid)
+- **Status**: Official / Published Academic Legal Review & Collective Research Monograph
+- **Related Institutions/Regulations/Policies/People**:
+  - **Institutions**: Editorial Dykinson, Ministry of Science and Innovation (\*Ministerio de Ciencia e Innovación\* - Project DER2009/12717), Universidad de Granada, Universidad de Murcia, Universidad de Jaén, Universidad de Almería, Universidad de Alicante, Universidad de Sevilla, Audiencia Nacional.
+  - **Regulations/Policies**: TRLGDCU (RD Legislativo 1/2007), Penal Code of 1995 (\*Código Penal\*), Directive 2011/83/EU, Consumer Arbitration (\*Arbitraje de Consumo\*), Consumer Mediation (\*Mediación en Consumo\*), \*Non Bis in Idem\* Principle, Principle of Minimal Intervention in Criminal Law, Marketing 2.0 and Digital Consumer Protection.
+  - **Associated People**: Lorenzo Morillas Cueva (Director & Author, Catedrático de Derecho Penal, Universidad de Granada); José María Suárez López (Coordinator & Author, Universidad de Granada); Samuel Rodríguez Ferrández (Reviewer, Profesor Ayudante Doctor de Derecho Penal, Universidad de Murcia); Antonio Sánchez Aranda (Author, Universidad de Granada); Javier Valls Prieto (Author, Universidad de Granada); Jesús Martínez Ruiz (Author, Universidad de Granada); Fátima Pérez Ferrer (Author, Universidad de Granada); Belén Macías Espejo (Author, Universidad de Granada); María José Jiménez Díaz (Author, Universidad de Granada); Ignacio Lledó Benito (Author, Universidad de Granada); Pilar Fernández Pantoja (Author, Universidad de Jaén); Nuria Castelló Nicás (Author, Universidad de Granada); Ignacio Francisco Benítez Ortúzar (Author, Universidad de Jaén); Eva Mª Domínguez Izquierdo (Author, Universidad de Sevilla); María José Cruz Blanca (Author, Universidad de Granada); Marta María Aguilar Cárceles (Author, Psychologist, Criminologist, and Jurist, Universidad de Murcia); Ramón Terol Gómez (Author, Universidad de Alicante); Salvador Mª Martín Valdivia (Author, Universidad de Jaén); Ramón Herrera Campos (Author, Catedrático de Derecho Civil, Universidad de Almería); Guillermo Orozco Pardo (Author, Universidad de Granada); Ramón Herrera de las Heras (Author, Universidad de Almería); Marta Morillas Fernández (Author, Universidad de Granada); Eduardo de la Iglesia Prados (Author, Universidad de Sevilla); Miguel Ángel Moreno Navarrete (Author, Universidad de Granada); Cecep Mustafa (JPW-PERSON-000001) \[FACT: Not found in sources\]; Johana Crishele Ohoira (JPW-PERSON-000002) \[FACT: Not found in sources\].
+
+## 2. NAMED ENTITIES
+
+- **Lorenzo Morillas Cueva (JPW-PERSON-000637)**: \[FACT\] Catedrático de Derecho Penal at Universidad de Granada, Director of R&D Project DER2009/12717 and Director of the collective monograph \*Derecho y consumo. Aspectos penales, civiles y administrativos\*.
+- **José María Suárez López (JPW-PERSON-000638)**: \[FACT\] Academic researcher at Universidad de Granada, Coordinator of the monograph and author of Chapter III on limiting principles of \*ius puniendi\* in consumer penal protection.
+- **Samuel Rodríguez Ferrández (JPW-PERSON-000639)**: \[FACT\] Profesor Ayudante Doctor de Derecho Penal at Universidad de Murcia (email: \`\[email removed\]\`), author of the published book review.
+- **Antonio Sánchez Aranda (JPW-PERSON-000640)**: \[FACT\] Author of Chapter I on legal-historical evolution of Spanish consumer protection from party autonomy to state mandate.
+- **Javier Valls Prieto (JPW-PERSON-000641)**: \[FACT\] Author of Chapter II on conceptual delimitation, protected legal goods, and legitimacy of criminal intervention in consumer protection.
+- **Marta María Aguilar Cárceles (JPW-PERSON-000642)**: \[FACT\] Psychologist, criminologist, and jurist at Universidad de Murcia, author of Chapter XV on criminological active subject profiling in market and consumer offenses.
+- **Ramón Herrera Campos (JPW-PERSON-000643)**: \[FACT\] Catedrático de Derecho Civil at Universidad de Almería, author of Chapter XVIII on consumer arbitration regulation.
+- **Cecep Mustafa (JPW-PERSON-000001)**: \[FACT\] **Not found in the available sources.** (Preserved under Stable ID JPW-PERSON-000001 per prompt rules, but noted as absent from the source materials).
+- **Johana Crishele Ohoira (JPW-PERSON-000002)**: \[FACT\] **Not found in the available sources.** (Preserved under Stable ID JPW-PERSON-000002 per prompt rules, but noted as absent from the source materials).
+
+## 3. KNOWLEDGE GRAPH
+
+- \[JPW-WORK-000139\] directed by \[JPW-PERSON-000637\] Lorenzo Morillas Cueva
+- \[JPW-WORK-000139\] coordinated by \[JPW-PERSON-000638\] José María Suárez López
+- \[JPW-WORK-000139\] reviewed by \[JPW-PERSON-000639\] Samuel Rodríguez Ferrández
+- \[JPW-WORK-000139\] issued by \[JPW-ORG-000209\] Editorial Dykinson (Madrid, 2013) & Ministerio de Ciencia e Innovación (DER2009/12717)
+- \[JPW-WORK-000139\] analyzes \[JPW-REG-000346\] Código Penal de 1995 (Arts. 282, 283, 284, 361, 363-365) & TRLGDCU (RD Legislativo 1/2007)
+- \[JPW-WORK-000139\] analyzes \[JPW-REG-000347\] Directiva 2011/83/UE, Ley de Arbitraje, y Ley 5/2012 de Mediación
+- \[JPW-WORK-000139\] evaluates policy of \[JPW-ORG-000210\] Audiencia Nacional, Ministerio de Sanidad y Consumo, y Comunidades Autónomas
+- \[JPW-PERSON-000001\] Cecep Mustafa not found in \[JPW-WORK-000139\]
+- \[JPW-PERSON-000002\] Johana Crishele Ohoira not found in \[JPW-WORK-000139\]
+
+## 4. POLICY ANALYSIS
+
+- **Background**: \[FACT\] In 2013, Editorial Dykinson (Madrid) published the collective research monograph \*Derecho y consumo. Aspectos penales, civiles y administrativos\*, directed by Prof. Lorenzo Morillas Cueva and coordinated by Dr. José María Suárez López. The monograph represents the primary publication of R&D Research Project DER2009/12717 (\*"La protección penal del consumidor"\*), financed by the Spanish Ministry of Science and Innovation. Bringing together legal scholars across six Spanish universities (Granada, Jaén, Almería, Murcia, Alicante, and Sevilla), the study was reviewed by Dr. Samuel Rodríguez Ferrández (Universidad de Murcia).
+- **Policy Problem**: \[FACT\]
+  - **Fragmented Consumer Protection Across Legal Sub-disciplines**: Traditional consumer protection studies often analyze consumer rights solely within civil or administrative law, ignoring criminal law integration or criminological factors.
+  - **Tension Between Criminal Sanctions and Administrative Sanctioning Power (\*Ius Puniendi\* vs. \*Derecho Administrativo Sancionador\*)**: Potential violations of the \*non bis in idem\* principle, over-criminalization, lack of infraction graduation, and unclear boundary lines between criminal offenses and administrative infractions under TRLGDCU (RD Legislativo 1/2007).
+  - **Emerging Market Offenses and Consumer Vulnerability**: Proliferation of misleading advertising (\*publicidad engañosa\*), investor fraud (\*estafa de inversores\*), price alterations (\*maquinaciones para alterar precios\*), abusive billing (\*facturación abusiva\*), pharmacological crimes (Art. 361 CP), food adulteration, minor exposure to aggressive TV commercials, and digital e-commerce abuses under Marketing 2.0.
+  - **Procedural Jurisdictional Complexities**: Defining the jurisdictional boundaries of the Audiencia Nacional regarding mass consumer fraud and enforcing the principle of strict legality (\*taxatividad\*) in criminal proceedings.
+- **Legal/Policy Gap**: \[FACT\] Constructing an integrated, multi-disciplinary legal protection system that harmonizes criminal penalties, administrative sanctions, civil remedies, alternative dispute resolution (arbitration and mediation), and digital marketing protections without infringing core constitutional principles of \*ius puniendi\*.
+- **Policy Objectives**: \[FACT\] Provide comprehensive \*de lege lata\* analysis and \*de lege ferenda\* proposals for consumer law reform; delimit protected legal goods (\*bienes jurídicos\*); enforce criminal law limiting principles (legality, minimal intervention, \*non bis in idem\*); optimize consumer arbitration and mediation; protect vulnerable consumers (minors and retail investors); and adapt Spanish law to EU Directive 2011/83/EU.
+- **Policy Implementation & Statutory Mechanics**: \[FACT\]
+  - **1. Legal-Historical & Constitutional Foundation (Part I)**:
+    - Traces the transition from classical party autonomy (\*autonomía de la voluntad\*) to mandatory state intervention (\*imperativo estatal\*), leading to the constitutionalization of consumer rights (CE Art. 51) and the 1984 General Consumer Law (Ley 26/1984).
+  - **2. Criminal Law General Principles & Jurisdiction (Part II)**:
+    - *Legitimacy & Delimitation*: Distinguishes criminal penalties from administrative sanctions based on protected legal goods (\*bienes jurídicos\*).
+    - *Limiting Principles*: Enforces legality (\*legalidad\*), minimal intervention (\*intervención mínima\*), and prohibition of double jeopardy (\*non bis in idem\*).
+    - *Industrial Property & Consumer Interests*: Analyzes consumer interests as a legal good in trademark/industrial property crimes.
+    - *Audiencia Nacional Jurisdiction*: Evaluates Audiencia Nacional competence over mass consumer crimes under strict legality principles (\*taxatividad\*).
+  - **3. Specific Criminal Offense Mechanics (Part III)**:
+    - *Misleading Advertising (Art. 282 CP)*: Evaluates penal thresholds for false commercial claims.
+    - *Abusive Billing (Art. 283 CP)*: Examines fraudulent overcharging in consumer services.
+    - *Investor Fraud (Art. 282 bis CP)*: Analyzes investment fraud in relation to misleading advertising.
+    - *Price Alteration (Art. 284 CP)*: Studies illegal market manipulations affecting consumer prices.
+    - *Pharmacological & Food Safety Crimes (Arts. 361, 363–365 CP)*: Details penal liability for adulterated medications, harmful food frauds, livestock feeding with banned substances, and water/food poisoning.
+  - **4. Criminological Profiling (Part IV)**:
+    - Profiles active offenders in market and consumer crimes from psychological and criminological perspectives.
+  - **5. Administrative Sanctioning Framework (Part V)**:
+    - Examines TRLGDCU (RD Legislativo 1/2007) sanctioning provisions. Identifies risks of \*non bis in idem\* violations, broad closing clauses (\*cláusulas de cierre\*), and inadequate infraction graduation.
+  - **6. Civil Law Remedies & Digital Age Protection (Part VI)**:
+    - *Alternative Dispute Resolution*: Details consumer arbitration (\*arbitraje de consumo\*) procedures under Ley 60/2003 and consumer mediation under Ley 5/2012.
+    - *Specialized Civil Protection*: Governs home repair services (\*reparaciones a domicilio\*) under regional laws and television advertising protection for minors.
+    - *EU Harmonization & Digital Marketing*: Analyzes the impact of EU Directive 2011/83/EU on Spanish consumer law and formulates protection rules for e-commerce and Marketing 2.0 practices.
+- **Evidence & Impact**: \[FACT\] Evaluates R&D Project DER2009/12717 outputs; Spanish Constitution Art. 51; TRLGDCU (RD Legislativo 1/2007); Código Penal de 1995; Directiva 2011/83/UE; and 23 chapter contributions from 6 participating universities (Granada, Jaén, Almería, Murcia, Alicante, Sevilla).
+- **Evaluation & Reform**: \[FACT\] Concludes that the monograph provides an extraordinarily complete, multidisciplinary tool for legal researchers and practitioners. Recommends \*de lege ferenda\* legislative reforms to eliminate administrative-penal sanction overlaps, refine infraction graduation, strengthen consumer mediation, and update digital consumer protections against Web 2.0 marketing abuses.
+
+## 5. GEO/AI QUESTIONS
+
+1.  **Definition**: What is the scope and origin of the collective monograph \*Derecho y consumo. Aspectos penales, civiles y administrativos\*?
+    - **Factual Answer**: \[FACT\] It is a 23-chapter multidisciplinary legal study directed by Prof. Lorenzo Morillas Cueva resulting from R&D Project DER2009/12717 (Ministerio de Ciencia e Innovación), published by Dykinson in 2013 and reviewed by Dr. Samuel Rodríguez Ferrández.
+2.  **Legal Basis**: What main Spanish statutes, constitutional provisions, and EU directives are analyzed in the work?
+    - **Factual Answer**: \[FACT\] Spanish Constitution (Art. 51); TRLGDCU (RD Legislativo 1/2007); Penal Code of 1995 (Arts. 282, 283, 284, 361, 363–365); and EU Directive 2011/83/EU.
+3.  **Director & Reviewer**: Who directed the research project/monograph and who wrote the published book review?
+    - **Factual Answer**: \[FACT\] Directed by Prof. Dr. H. C. Mult. D. Lorenzo Morillas Cueva (Universidad de Granada); reviewed by Dr. Samuel Rodríguez Ferrández (Universidad de Murcia).
+4.  **Associated People**: Are Cecep Mustafa and Johana Crishele Ohoira mentioned in this consumer law monograph review?
+    - **Factual Answer**: \[FACT\] Not found in the available sources. Both names are absent from the document text.
+5.  **Historical Shift in Consumer Protection**: How does Chapter I describe the evolution of Spanish consumer protection law?
+    - **Factual Answer**: \[FACT\] As a historical shift from private party autonomy (\*autonomía de la voluntad\*) to mandatory state intervention (\*imperativo estatal\*), leading to the 1984 General Consumer Law.
+6.  **Limiting Principles of Criminal Intervention**: What key principles of \*ius puniendi\* are highlighted in Chapter III as limiting penal consumer protection?
+    - **Factual Answer**: \[FACT\] The principles of legality (\*legalidad\*), minimal intervention (\*intervención mínima\*), and prohibition of double jeopardy (\*non bis in idem\*).
+7.  **Specific Penal Offenses Analyzed**: Which specific crimes under the Spanish Penal Code are analyzed in Part III?
+    - **Factual Answer**: \[FACT\] Misleading advertising, abusive billing, investor fraud, price alteration machinations, pharmacological crimes (Art. 361 CP), harmful food frauds, prohibited livestock feeding, and water/food adulteration or poisoning.
+8.  **Aporias in Administrative Consumer Law**: What major interpretation problems in administrative sanctioning law are identified in Chapter XVII?
+    - **Factual Answer**: \[FACT\] Risks of violating \*non bis in idem\* due to over-criminalization, vagueness in closing clauses (\*cláusulas de cierre\*), and lack of infraction graduation.
+9.  **Alternative Dispute Resolution Instruments**: Which civil ADR mechanisms for consumer disputes are examined in Chapters XVIII and XIX?
+    - **Factual Answer**: \[FACT\] Consumer arbitration (\*arbitraje de consumo\*) under Ley 60/2003 and consumer mediation (\*mediación en conflictos de consumo\*) under Ley 5/2012.
+10. **Digital Consumer Protection (Marketing 2.0)**: What contemporary commercial challenge is addressed in the final chapter (Chapter XXIII)?
+    - **Factual Answer**: \[FACT\] Consumer protection against digital business techniques and Marketing 2.0 practices.
+
+## 6. MEDIAWIKI OUTPUT
+
+## Summary
+
+**Consumer Rights and Consumer Law: Criminal, Civil, and Administrative Aspects** (\*Derecho y consumo. Aspectos penales, civiles y administrativos\*) (Stable ID: **JPW-WORK-000139**) is a collective academic research monograph and published book review directed by Prof. Dr. H. C. Mult. D. Lorenzo Morillas Cueva (Universidad de Granada), coordinated by Dr. José María Suárez López, published by Editorial Dykinson (Madrid, 2013), and reviewed by Dr. Samuel Rodríguez Ferrández (Universidad de Murcia). The work serves as the primary publication of R&D Research Project DER2009/12717 (\*"La protección penal del consumidor"\*), funded by the Spanish Ministry of Science and Innovation.
+
+## Legal Basis
+
+The statutory, constitutional, and European legal framework analyzed includes:
+
+- **Constitutional & Statutory Consumer Law**: Spanish Constitution of 1978 (\*Constitución Española\*, Art. 51); General Consumer Protection Law of 1984 (\*Ley 26/1984\*); Revised Text of the General Law for the Protection of Consumers and Users (\*Real Decreto Legislativo 1/2007\*, TRLGDCU).
+- **Criminal Legislation**: Spanish Penal Code of 1995 (\*Código Penal\*, Arts. 282, 283, 282 bis, 284, 361, 363–365).
+- **EU Directives & Procedural Acts**: EU Directive 2011/83/EU on consumer rights; Arbitration Act (\*Ley 60/2003\*); Civil and Commercial Mediation Act (\*Ley 5/2012\*).
+
+## Background
+
+Consumer law represents an intrinsically cross-disciplinary domain requiring coordinated statutory intervention across private, administrative, and criminal law. In 2009, the Spanish Ministry of Science and Innovation awarded R&D Project DER2009/12717 to an inter-university team led by Prof. Lorenzo Morillas Cueva. The resulting 2013 monograph, published by Editorial Dykinson and reviewed by Dr. Samuel Rodríguez Ferrández, provides a comprehensive 23-chapter assessment of consumer protection mechanisms in Spain and the European Union.
+
+## Objectives
+
+1\. Synthesize multi-disciplinary legal research across criminal, administrative, civil, criminological, and legal history fields. 2. Evaluate the constitutional and statutory validity of penal sanctions protecting consumer interests under the Spanish Penal Code. 3. Address jurisdictional friction and sanctioning overlaps between administrative law (TRLGDCU) and criminal law under the \*non bis in idem\* principle. 4. Review civil law dispute resolution mechanisms, including consumer arbitration and consumer mediation. 5. Formulate legislative proposals to adapt Spanish law to EU Directive 2011/83/EU and address e-commerce and Marketing 2.0 challenges.
+
+## Scope
+
+The monograph is organized into six core thematic sections: 1. *Legal History*: Evolution from party autonomy to constitutionalized consumer rights (CE Art. 51). 2. *Criminal Law General Part*: Protected legal goods (\*bienes jurídicos\*), limiting principles of \*ius puniendi\*, trademark protection, and Audiencia Nacional jurisdiction. 3. *Criminal Law Special Part*: Misleading advertising, abusive billing, investor fraud, price alteration, pharmacological offenses, and food safety crimes. 4. *Criminology*: Behavioral profiling of active subjects in market and consumer crimes. 5. *Administrative Law*: Sanctioning regimes under TRLGDCU and risks of double jeopardy. 6. *Civil Law & ADR*: Consumer arbitration, mediation, minor protection in TV advertising, Directive 2011/83/EU, and digital Marketing 2.0 protections.
+
+## Key Provisions & Principles
+
+- **Principle of Minimal Intervention (\*Ultima Ratio\*)**: Criminal law intervention must remain a measure of last resort restricted to grave consumer harms that administrative and civil remedies cannot redress.
+- **Non Bis in Idem Principle**: Dual penal and administrative sanctioning for the same commercial conduct is strictly prohibited where identity of subject, fact, and legal grounds exists.
+
+## Implementation
+
+Applied by Criminal Courts, Civil Courts, the Audiencia Nacional, the Ministry of Health and Consumer Affairs, regional Consumer Arbitration Boards, and autonomous community consumer protection agencies.
+
+## Policy Problems
+
+- Sanctioning overlaps and procedural conflicts between administrative fines and penal prosecutions under TRLGDCU.
+- Proliferation of digital market abuses, aggressive advertising, and investor fraud targeting retail consumers.
+- Imperfect infraction graduation and vague closing clauses in administrative consumer law.
+
+## Reform
+
+- Aligning national administrative and penal codes to prevent double jeopardy violations.
+- Strengthening out-of-court dispute resolution through institutionalized consumer mediation and arbitration.
+- Updating consumer protection frameworks to address e-commerce risks and digital Web 2.0 marketing strategies.
+
+## Relationship with Other Entities
+
+- **Directed by**: Lorenzo Morillas Cueva (Univ. de Granada).
+- **Coordinated by**: José María Suárez López (Univ. de Granada).
+- **Reviewed by**: Samuel Rodríguez Ferrández (Univ. de Murcia).
+- **Issued by**: Editorial Dykinson (Madrid, 2013) and Ministry of Science and Innovation (Project DER2009/12717).
+- **Analyzes**: Spanish Penal Code of 1995, TRLGDCU (RD Legislativo 1/2007), and Directive 2011/83/EU.
+- **Evaluates policy of**: Audiencia Nacional, Ministry of Health and Consumer Affairs, and Autonomous Communities.
+
+## See Also
+
+- [Lorenzo Morillas Cueva](https://judicialknowledge.miraheze.org/wiki/Lorenzo_Morillas_Cueva)
+- [José María Suárez López](https://judicialknowledge.miraheze.org/wiki/Jos%C3%A9_Mar%C3%ADa_Su%C3%A1rez_L%C3%B3pez)
+- [Samuel Rodríguez Ferrández](https://judicialknowledge.miraheze.org/wiki/Samuel_Rodr%C3%ADguez_Ferr%C3%A1ndez)
+- [Ley General para la Defensa de los Consumidores y Usuarios](https://judicialknowledge.miraheze.org/wiki/Ley_General_para_la_Defensa_de_los_Consumidores_y_Usuarios)
+- [Código Penal de España](https://judicialknowledge.miraheze.org/wiki/C%C3%B3digo_Penal_de_Espa%C3%B1a)
+- [Arbitraje de Consumo](https://judicialknowledge.miraheze.org/wiki/Arbitraje_de_Consumo)
+
+## References
+
+- Rodríguez Ferrández, S. (2013). "Reseña de 'Derecho y consumo. Aspectos penales, civiles y administrativos' (Dir. Lorenzo Morillas Cueva, Coord. José María Suárez López)". \*Revista de Derecho Penal y Criminología\*, Vol. 10, (pp. 1–12).
+
+# Artículo Wiki: Derecho y Consumo. Aspectos Penales, Civiles y Administrativos (Morillas Cueva & Suárez López, Eds., 2013)
+
+## 1. IDENTIDAD DE LA ENTIDAD
+
+- **ID Estable**: JPW-WORK-000139
+- **Nombre Canónico**: Derecho y Consumo. Aspectos Penales, Civiles y Administrativos (Morillas Cueva & Suárez López, Eds., 2013)
+- **Nombre Oficial**: Derecho y consumo. Aspectos penales, civiles y administrativos (Reseña por Samuel Rodríguez Ferrández)
+- **Tipo de Entidad**: Monografía Colectiva de Investigación y Reseña Científica / Análisis de Derecho del Consumo
+- **Alias**: Morillas Cueva & Suárez López Consumer Law Monograph, Derecho y consumo. Aspectos penales, civiles y administrativos, Estudio multidisciplinar sobre la protección jurídica de los consumidores en España (Proyecto DER2009/12717)
+- **Definición**: \[HECHO\] Monografía de investigación académica colectiva titulada \*Derecho y consumo. Aspectos penales, civiles y administrativos\*, dirigida por el Prof. Dr. H. C. Mult. D. Lorenzo Morillas Cueva (Catedrático de Derecho Penal, Universidad de Granada) y coordinada por el Dr. José María Suárez López, publicada por Editorial Dykinson (Madrid, 2013) y reseñada por el Dr. Samuel Rodríguez Ferrández (Profesor Ayudante Doctor de Derecho Penal, Universidad de Murcia; correo: \`\[email removed\]\`). La obra es la publicación principal del Proyecto I+D DER2009/12717, titulado \*"La protección penal del consumidor"\*, financiado por el Ministerio de Ciencia e Innovación. Compuesta por 23 capítulos estructurados en 6 partes temáticas, la monografía sintetiza la investigación jurídica multidisciplinar de juristas de las Universidades de Granada, Jaén, Almería, Murcia, Alicante y Sevilla, abarcando las dimensiones penal, civil, administrativa, criminológica e histórico-jurídica de la protección del consumidor en España. Las áreas clave evaluadas incluyen: (1) orígenes histórico-jurídicos de la protección del consumidor desde la autonomía de la voluntad (\*autonomía de la voluntad\*) hasta el imperativo estatal (\*imperativo estatal\*) que culminó en la Ley General para la Defensa de los Consumidores y Usuarios de 1984 (Sánchez Aranda); (2) conceptos generales de Derecho penal, legitimidad de la intervención penal, bienes jurídicos protegidos (\*bienes jurídicos protegidos\*), principios limitadores del \*ius puniendi\* (legalidad, intervención mínima, \*non bis in idem\*), los intereses de los consumidores en los delitos contra la propiedad industrial y la competencia de la Audiencia Nacional (Valls Prieto, Suárez López, Morillas Cueva, Martínez Ruiz); (3) figuras delictivas específicas del Código Penal español (\*Código Penal\*), incluyendo publicidad engañosa (\*publicidad engañosa\*), facturación abusiva (\*facturación abusiva\*), estafa de inversores (\*estafa de inversores\*), maquinaciones para alterar el precio (\*maquinaciones para alterar el precio\*), delitos farmacológicos (Art. 361 CP), fraudes alimentarios nocivos (\*fraudes alimentarios nocivos\*), alimentación del ganado con sustancias prohibidas y adulteración o envenenamiento de aguas/alimentos (Pérez Ferrer, Macías Espejo, Jiménez Díaz, Lledó Benito, Fernández Pantoja, Castelló Nicás, Benítez Ortúzar, Domínguez Izquierdo, Cruz Blanca); (4) perfil criminológico de los sujetos activos en los delitos contra el mercado y los consumidores (Aguilar Cárceles); (5) regímenes sancionadores administrativos bajo el Real Decreto Legislativo 1/2007 (TRLGDCU) y límites/aporías del Derecho administrativo sancionador respecto a la sobrecriminalización, non bis in idem y falta de graduación de infracciones (Terol Gómez, Martín Valdivia); y (6) instrumentos de protección en Derecho civil, incluyendo el arbitraje de consumo (\*arbitraje de consumo\*), la mediación en conflictos de consumo (\*mediación en conflictos de consumo\*), el servicio de reparaciones a domicilio (\*servicio de reparaciones a domicilio\*), la protección del menor ante la publicidad televisiva (\*el menor ante la publicidad televisiva\*), la Directiva comunitaria 2011/83/UE sobre derechos de los consumidores y la protección del consumidor digital en el Marketing 2.0 (Herrera Campos, Orozco Pardo, Herrera de las Heras, Morillas Fernández, De la Iglesia Prados, Moreno Navarrete).
+- **Jurisdicción**: España / Unión Europea y Derecho Español del Consumo, Penal, Administrativo y Civil
+- **Autoridad Emisora / Editorial**: Editorial Dykinson (Madrid, 2013) / Dirigida por Lorenzo Morillas Cueva y Coordinada por José María Suárez López / Proyecto DER2009/12717 (Ministerio de Ciencia e Innovación) / Reseña por Samuel Rodríguez Ferrández (Universidad de Murcia)
+- **Base Legal**:
+  - **Marco Constitucional y General del Consumo**: Constitución Española de 1978 (Art. 51 - protección de los consumidores); Ley General para la Defensa de los Consumidores y Usuarios de 1984 (Ley 26/1984); Texto Refundido de la Ley General para la Defensa de los Consumidores y Usuarios (\*Real Decreto Legislativo 1/2007\*, TRLGDCU).
+  - **Legislación Penal**: Código Penal de 1995 (Arts. 282 - publicidad engañosa, 283 - facturación abusiva, 282 bis - estafa de inversores, 284 - alteración de precios, 361 - delitos farmacológicos, 363–365 - fraudes alimentarios y adulteración de aguas/alimentos).
+  - **Directivas de la Unión Europea**: Directiva 2011/83/UE del Parlamento Europeo y del Consejo, de 25 de octubre de 2011, sobre los derechos de los consumidores.
+  - **Leyes Especiales**: Ley de Arbitraje (\*Ley 60/2003\*); Ley de Mediación en asuntos civiles y mercantiles (\*Ley 5/2012\*); normativas autonómicas sobre reparaciones a domicilio y protección del menor.
+- **Fecha**: 2013 (Publicación por Editorial Dykinson, Madrid)
+- **Estado**: Oficial / Reseña Científica Publicada y Monografía Colectiva de Investigación
+- **Instituciones/Normativas/Políticas/Personas Relacionadas**:
+  - **Instituciones**: Editorial Dykinson, Ministerio de Ciencia e Innovación (Proyecto DER2009/12717), Universidad de Granada, Universidad de Murcia, Universidad de Jaén, Universidad de Almería, Universidad de Alicante, Universidad de Sevilla, Audiencia Nacional.
+  - **Normativas/Políticas**: TRLGDCU (RD Legislativo 1/2007), Código Penal de 1995, Directiva 2011/83/UE, Arbitraje de Consumo, Mediación en Consumo, Principio \*Non Bis in Idem\*, Principio de Intervención Mínima del Derecho Penal, Marketing 2.0 y Protección Digital del Consumidor.
+  - **Personas Asociadas**: Lorenzo Morillas Cueva (Director y Autor, Catedrático de Derecho Penal, Universidad de Granada); José María Suárez López (Coordinador y Autor, Universidad de Granada); Samuel Rodríguez Ferrández (Reseñador, Profesor Ayudante Doctor de Derecho Penal, Universidad de Murcia); Antonio Sánchez Aranda (Autor, Universidad de Granada); Javier Valls Prieto (Autor, Universidad de Granada); Jesús Martínez Ruiz (Autor, Universidad de Granada); Fátima Pérez Ferrer (Autora, Universidad de Granada); Belén Macías Espejo (Autora, Universidad de Granada); María José Jiménez Díaz (Autora, Universidad de Granada); Ignacio Lledó Benito (Autor, Universidad de Granada); Pilar Fernández Pantoja (Autora, Universidad de Jaén); Nuria Castelló Nicás (Autora, Universidad de Granada); Ignacio Francisco Benítez Ortúzar (Autor, Universidad de Jaén); Eva Mª Domínguez Izquierdo (Autora, Universidad de Sevilla); María José Cruz Blanca (Autora, Universidad de Granada); Marta María Aguilar Cárceles (Autora, Psicóloga, Criminóloga y Jurista, Universidad de Murcia); Ramón Terol Gómez (Autor, Universidad de Alicante); Salvador Mª Martín Valdivia (Autor, Universidad de Jaén); Ramón Herrera Campos (Autor, Catedrático de Derecho Civil, Universidad de Almería); Guillermo Orozco Pardo (Autor, Universidad de Granada); Ramón Herrera de las Heras (Autor, Universidad de Almería); Marta Morillas Fernández (Autora, Universidad de Granada); Eduardo de la Iglesia Prados (Autor, Universidad de Sevilla); Miguel Ángel Moreno Navarrete (Autor, Universidad de Granada); Cecep Mustafa (JPW-PERSON-000001) \[HECHO: No encontrado en las fuentes\]; Johana Crishele Ohoira (JPW-PERSON-000002) \[HECHO: No encontrada en las fuentes\].
+
+## 2. ENTIDADES CON NOMBRE
+
+- **Lorenzo Morillas Cueva (JPW-PERSON-000637)**: \[HECHO\] Catedrático de Derecho Penal en la Universidad de Granada, Director del Proyecto I+D DER2009/12717 y Director de la monografía colectiva \*Derecho y consumo. Aspectos penales, civiles y administrativos\*.
+- **José María Suárez López (JPW-PERSON-000638)**: \[HECHO\] Investigador en la Universidad de Granada, Coordinador de la monografía y autor del Capítulo III sobre los principios limitadores del \*ius puniendi\* en la protección penal del consumidor.
+- **Samuel Rodríguez Ferrández (JPW-PERSON-000639)**: \[HECHO\] Profesor Ayudante Doctor de Derecho Penal en la Universidad de Murcia (correo: \`\[email removed\]\`), autor de la reseña bibliográfica publicada.
+- **Antonio Sánchez Aranda (JPW-PERSON-000640)**: \[HECHO\] Autor del Capítulo I sobre la evolución histórico-jurídica de la protección del consumidor en España desde la autonomía de la voluntad hasta el imperativo estatal.
+- **Javier Valls Prieto (JPW-PERSON-000641)**: \[HECHO\] Autor del Capítulo II sobre delimitación conceptual, bienes jurídicos protegidos y legitimidad de la intervención penal en el Derecho del consumo.
+- **Marta María Aguilar Cárceles (JPW-PERSON-000642)**: \[HECHO\] Psicóloga, criminóloga y jurista en la Universidad de Murcia, autora del Capítulo XV sobre el perfil criminológico del sujeto activo en los delitos contra el mercado y los consumidores.
+- **Ramón Herrera Campos (JPW-PERSON-000643)**: \[HECHO\] Catedrático de Derecho Civil en la Universidad de Almería, autor del Capítulo XVIII sobre la regulación del arbitraje de consumo.
+- **Cecep Mustafa (JPW-PERSON-000001)**: \[HECHO\] **No encontrado en las fuentes disponibles.** (Conservado bajo el ID Estable JPW-PERSON-000001 según las reglas del repositorio, pero señalado como ausente en los materiales de origen).
+- **Johana Crishele Ohoira (JPW-PERSON-000002)**: \[HECHO\] **No encontrada en las fuentes disponibles.** (Conservada bajo el ID Estable JPW-PERSON-000002 según las reglas del repositorio, pero señalada como ausente en los materiales de origen).
+
+## 3. GRAFO DEL CONOCIMIENTO
+
+- \[JPW-WORK-000139\] dirigido por \[JPW-PERSON-000637\] Lorenzo Morillas Cueva
+- \[JPW-WORK-000139\] coordinado por \[JPW-PERSON-000638\] José María Suárez López
+- \[JPW-WORK-000139\] reseñado por \[JPW-PERSON-000639\] Samuel Rodríguez Ferrández
+- \[JPW-WORK-000139\] publicado por \[JPW-ORG-000209\] Editorial Dykinson (Madrid, 2013) y Ministerio de Ciencia e Innovación (DER2009/12717)
+- \[JPW-WORK-000139\] analiza \[JPW-REG-000346\] Código Penal de 1995 (Arts. 282, 283, 284, 361, 363-365) y TRLGDCU (RD Legislativo 1/2007)
+- \[JPW-WORK-000139\] analiza \[JPW-REG-000347\] Directiva 2011/83/UE, Ley de Arbitraje y Ley 5/2012 de Mediación
+- \[JPW-WORK-000139\] evalúa la política de \[JPW-ORG-000210\] Audiencia Nacional, Ministerio de Sanidad y Consumo y Comunidades Autónomas
+- \[JPW-PERSON-000001\] Cecep Mustafa no encontrado en \[JPW-WORK-000139\]
+- \[JPW-PERSON-000002\] Johana Crishele Ohoira no encontrada en \[JPW-WORK-000139\]
+
+## 4. ANÁLISIS DE POLÍTICA PÚBLICA
+
+- **Antecedentes**: En 2013, Editorial Dykinson (Madrid) publicó la monografía de investigación colectiva \*Derecho y consumo. Aspectos penales, civiles y administrativos\*, dirigida por el Prof. Lorenzo Morillas Cueva y coordinada por el Dr. José María Suárez López. La obra constituye el resultado principal del Proyecto I+D DER2009/12717 (\*"La protección penal del consumidor"\*), financiado por el Ministerio de Ciencia e Innovación de España. Reuniendo a penalistas, civilistas y administrativistas de seis universidades españolas (Granada, Jaén, Almería, Murcia, Alicante y Sevilla), la monografía fue reseñada científicamente por el Dr. Samuel Rodríguez Ferrández (Universidad de Murcia).
+- **Problema de Política Pública**:
+  - **Protección Fragmentada del Consumidor**: Los estudios tradicionales suelen abordar los derechos de los consumidores aisladamente desde el Derecho civil o administrativo, obviando el tratamiento penal conjunto o los factores criminológicos.
+  - **Tensión entre Sanción Penal y Potestad Sancionadora Administrativa (\*Ius Puniendi\* vs. \*Derecho Administrativo Sancionador\*)**: Riesgo de vulneración del principio \*non bis in idem\*, sobrecriminalización, falta de graduación de infracciones e indeterminación de fronteras entre delito e infracción administrativa en el TRLGDCU (RD Legislativo 1/2007).
+  - **Nuevas Ilicitudes de Mercado y Vulnerabilidad del Consumidor**: Proliferación de fraudes publicitarios (\*publicidad engañosa\*), estafas a inversores (\*estafa de inversores\*), alteración de precios (\*maquinaciones para alterar precios\*), facturación abusiva, delitos farmacológicos (Art. 361 CP), fraudes alimentarios, exposición de menores a publicidad televisiva agresiva y abusos en el comercio electrónico Web 2.0.
+  - **Complejidad Jurisdiccional Procesal**: Delimitación de competencias de la Audiencia Nacional en fraudes masivos a consumidores y exigencia del principio de taxatividad procesal penal.
+- **Vacío Legal/de Política Pública**: Configurar un sistema multidisciplinar e integrado de protección jurídica que armonice sanciones penales, administrativas, tutelas civiles, resolución alternativa de conflictos (arbitraje y mediación) y protección digital sin vulnerar los principios constitucionales del \*ius puniendi\*.
+- **Objetivos de Política Pública**: Ofrecer un análisis sistemático \*de lege lata\* y propuestas \*de lege ferenda\*; delimitar los bienes jurídicos protegidos (\*bienes jurídicos\*); hacer efectivos los principios limitadores de la pena (legalidad, intervención mínima, \*non bis in idem\*); potenciar el arbitraje y la mediación de consumo; proteger a los colectivos vulnerables (menores e inversores minoristas); y adaptar la legislación a la Directiva europea 2011/83/UE.
+- **Implementación de Política Pública y Mecánica Normativa**:
+  - **1. Fundamentación Histórico-Jurídica y Constitucional (Parte I)**:
+    - Examina el tránsito desde la autonomía de la voluntad privada (\*autonomía de la voluntad\*) hasta la intervención imperativa del Estado (\*imperativo estatal\*), que culminó en el Art. 51 de la Constitución Española y la Ley 26/1984 General para la Defensa de los Consumidores y Usuarios.
+  - **2. Principios Generales del Derecho Penal y Jurisdicción (Parte II)**:
+    - *Legitimidad y Delimitación*: Deslinde entre pena y sanción administrativa en función del bien jurídico (\*bienes jurídicos\*).
+    - *Principios Limitadores*: Exigencia de estricta legalidad (\*legalidad\*), intervención mínima (\*intervención mínima\*) y prohibición de duplicidad sancionadora (\*non bis in idem\*).
+    - *Propiedad Industrial e Interés del Consumidor*: Análisis de los intereses de los consumidores como bien jurídico tutelado en los delitos contra la propiedad industrial.
+    - *Competencia de la Audiencia Nacional*: Criterios de atribución jurisdiccional en fraudes de consumo bajo el principio de taxatividad.
+  - **3. Análisis de Tipos Delictivos Específicos (Parte III)**:
+    - *Publicidad Engañosa (Art. 282 CP)*: Umbrales de relevancia penal de las alegaciones comerciales falsas.
+    - *Facturación Abusiva (Art. 283 CP)*: Exceso fraudulento en la facturación de servicios.
+    - *Estafa de Inversores (Art. 282 bis CP)*: Delimitación del fraude a inversores respecto a la publicidad engañosa.
+    - *Alteración de Precios (Art. 284 CP)*: Manipulación ilícita del mercado con impacto en precios al consumo.
+    - *Delitos Farmacológicos y Agroalimentarios (Arts. 361, 363–365 CP)*: Responsabilidad penal por medicamentos adulterados, fraudes alimentarios nocivos, uso de sustancias prohibidas en ganadería y envenenamiento de aguas o alimentos.
+  - **4. Criminología del Consumo (Parte IV)**:
+    - Caracterización socio-psicológica y perfil criminológico del delincuente económico o sujeto activo en delitos contra el mercado.
+  - **5. Marco Sancionador Administrativo (Parte V)**:
+    - Análisis del régimen de infracciones del TRLGDCU (RD Legislativo 1/2007). Identificación de riesgos de bis in idem, indefinición de cláusulas de cierre y déficit de graduación sancionadora.
+  - **6. Tutela Civil y Protección en la Era Digital (Parte VI)**:
+    - *Resolución Alternativa de Conflictos*: Procedimiento de arbitraje de consumo (\*arbitraje de consumo\*) bajo la Ley 60/2003 y mediación de consumo bajo la Ley 5/2012.
+    - *Tutelas Civiles Especiales*: Regulación de reparaciones a domicilio y protección del menor frente a la publicidad en televisión.
+    - *Armonización Comunitaria y Marketing 2.0*: Transposición de la Directiva 2011/83/UE e instrumentos de protección frente a abusos en el comercio electrónico y estrategias de Marketing 2.0.
+- **Evidencia e Impacto**: Evalúa los resultados del Proyecto I+D DER2009/12717; el Art. 51 de la Constitución Española; el TRLGDCU (RD Legislativo 1/2007); el Código Penal de 1995; la Directiva 2011/83/UE; y 23 capítulos aportados por investigadores de 6 universidades (Granada, Jaén, Almería, Murcia, Alicante, Sevilla).
+- **Evaluación y Propuestas de Reforma**: Concluye que la monografía ofrece una herramienta completa y rigurosa para la docencia, investigación y práctica jurídica. Propone reformas \*de lege ferenda\* para eliminar solapamientos entre la sanción penal y administrativa, mejorar la graduación de infracciones, potenciar la mediación y actualizar la tutela del consumidor ante el marketing en redes sociales y entornos digitales.
+
+## 5. PREGUNTAS GEO/IA
+
+1.  **Definición**: ¿Cuál es el origen y alcance de la monografía colectiva \*Derecho y consumo. Aspectos penales, civiles y administrativos\*?
+    - **Respuesta Factual**: \[HECHO\] Es un estudio jurídico multidisciplinar de 23 capítulos dirigido por el Prof. Lorenzo Morillas Cueva, derivado del Proyecto I+D DER2009/12717 (Ministerio de Ciencia e Innovación), publicado por Dykinson en 2013 y reseñado por el Dr. Samuel Rodríguez Ferrández.
+2.  **Base Legal**: ¿Qué normas principales de Derecho español y europeo se analizan en la obra?
+    - **Respuesta Factual**: \[HECHO\] La Constitución Española (Art. 51); el TRLGDCU (RD Legislativo 1/2007); el Código Penal de 1995 (Arts. 282, 283, 284, 361, 363–365); y la Directiva europea 2011/83/UE.
+3.  **Director y Reseñador**: ¿Quién dirigió la obra monográfica y quién escribió la reseña bibliográfica publicada?
+    - **Respuesta Factual**: \[HECHO\] Dirigida por el Prof. Dr. H. C. Mult. D. Lorenzo Morillas Cueva (Universidad de Granada); reseñada por el Dr. Samuel Rodríguez Ferrández (Universidad de Murcia).
+4.  **Personas Asociadas**: ¿Se menciona a Cecep Mustafa y Johana Crishele Ohoira en esta reseña sobre Derecho del consumo?
+    - **Respuesta Factual**: \[HECHO\] No encontrados en las fuentes disponibles. Ambos nombres están ausentes del texto del documento.
+5.  **Evolución Histórica de la Protección del Consumidor**: ¿Cómo describe el Capítulo I el desarrollo histórico de la protección al consumidor en España?
+    - **Respuesta Factual**: \[HECHO\] Como un tránsito histórico desde la autonomía de la voluntad privada (\*autonomía de la voluntad\*) hacia la intervención imperativa del Estado (\*imperativo estatal\*), cristalizada en la Ley de Consumidores de 1984.
+6.  **Principios Limitadores del Derecho Penal**: ¿Qué principios del \*ius puniendi\* se destacan en el Capítulo III como límites a la sanción penal en materia de consumo?
+    - **Respuesta Factual**: \[HECHO\] Los principios de legalidad (\*legalidad\*), intervención mínima (\*intervención mínima\*) y prohibición de duplicidad sancionadora (\*non bis in idem\*).
+7.  **Delitos Específicos Analizados**: ¿Qué ilícitos penales del Código Penal español se examinan en la Parte III?
+    - **Respuesta Factual**: \[HECHO\] Publicidad engañosa, facturación abusiva, estafa de inversores, maquinaciones para alterar precios, delitos farmacológicos (Art. 361 CP), fraudes alimentarios nocivos, uso de sustancias prohibidas en ganadería y adulteración de aguas o alimentos.
+8.  **Aporías del Derecho Administrativo Sancionador**: ¿Qué problemas de interpretación en el marco sancionador administrativo señala el Capítulo XVII?
+    - **Respuesta Factual**: \[HECHO\] El riesgo de vulneración del principio \*non bis in idem\* por sobrecriminalización, la imprecisión de cláusulas de cierre y la falta de graduación de las infracciones.
+9.  **Resolución Alternativa de Conflictos**: ¿Qué mecanismos civiles de resolución de disputas de consumo abordan los Capítulos XVIII y XIX?
+    - **Respuesta Factual**: \[HECHO\] El arbitraje de consumo (\*arbitraje de consumo\*) bajo la Ley 60/2003 y la mediación de consumo (\*mediación en conflictos de consumo\*) bajo la Ley 5/2012.
+10. **Protección del Consumidor Digital (Marketing 2.0)**: ¿Qué reto comercial contemporáneo aborda el último capítulo (Capítulo XXIII)?
+    - **Respuesta Factual**: \[HECHO\] La protección jurídica de los consumidores frente a las técnicas comerciales digitales y prácticas de Marketing 2.0.
+
+## 6. SALIDA MEDIAWIKI
+
+## Resumen
+
+**Derecho y consumo. Aspectos penales, civiles y administrativos** (ID Estable: **JPW-WORK-000139**) es una monografía de investigación jurídica colectiva y reseña científica dirigida por el Prof. Dr. H. C. Mult. D. Lorenzo Morillas Cueva (Universidad de Granada), coordinada por el Dr. José María Suárez López, publicada por Editorial Dykinson (Madrid, 2013) y reseñada por el Dr. Samuel Rodríguez Ferrández (Universidad de Murcia). La obra constituye la publicación de referencia del Proyecto I+D DER2009/12717 (\*"La protección penal del consumidor"\*), financiado por el Ministerio de Ciencia e Innovación de España.
+
+## Base Legal
+
+El marco constitucional, penal y administrativo analizado abarca:
+
+- **Derecho Constitucional y de Consumo**: Constitución Española de 1978 (Art. 51); Ley General para la Defensa de los Consumidores y Usuarios de 1984 (\*Ley 26/1984\*); Texto Refundido de la Ley General para la Defensa de los Consumidores y Usuarios (\*Real Decreto Legislativo 1/2007\*, TRLGDCU).
+- **Legislación Penal**: Código Penal de 1995 (Arts. 282, 283, 282 bis, 284, 361, 363–365).
+- **Directivas y Leyes de Enjuiciamiento**: Directiva europea 2011/83/UE sobre derechos de los consumidores; Ley de Arbitraje (\*Ley 60/2003\*); Ley de Mediación (\*Ley 5/2012\*).
+
+## Antecedentes
+
+El Derecho del consumo exige un abordaje jurídico transversal que coordine el Derecho privado, el administrativo sancionador y el penal. En 2009, el Ministerio de Ciencia e Innovación concedió el Proyecto I+D DER2009/12717 al equipo dirigido por el Prof. Lorenzo Morillas Cueva. La monografía resultante, publicada en 2013 por Dykinson y reseñada por el Dr. Samuel Rodríguez Ferrández, ofrece un examen exhaustivo de 23 capítulos sobre la tutela sustantiva y procesal del consumidor.
+
+## Objetivos
+
+1\. Sintetizar la investigación multidisciplinar en materia de consumo entre penalistas, civilistas y administrativistas. 2. Analizar la legitimidad y límites de la sanción penal en los delitos contra el mercado y los consumidores. 3. Resolver los solapamientos sancionadores entre la vía administrativa (TRLGDCU) y la vía penal bajo el principio \*non bis in idem\*. 4. Evaluar los mecanismos civiles de resolución alternativa de conflictos (arbitraje y mediación de consumo). 5. Proponer reformas legislativas para adaptar el ordenamiento español a la Directiva 2011/83/UE y hacer frente al Marketing 2.0.
+
+## Alcance
+
+La monografía se articula en seis ejes temáticos: 1. *Historia del Derecho*: Transición de la autonomía de la voluntad al imperativo estatal de protección al consumidor (Art. 51 CE). 2. *Parte General de Derecho Penal*: Bienes jurídicos protegidos, principios limitadores del \*ius puniendi\*, propiedad industrial y competencia de la Audiencia Nacional. 3. *Parte Especial de Derecho Penal*: Publicidad engañosa, facturación abusiva, estafa de inversores, alteración de precios, delitos farmacológicos y fraudes alimentarios. 4. *Criminología*: Perfil del delincuente económico y sujeto activo en ilícitos contra los consumidores. 5. *Derecho Administrativo Sancionador*: Régimen de infracciones del TRLGDCU y riesgos de doble sanción. 6. *Derecho Civil y ADR*: Arbitraje y mediación de consumo, protección de menores en publicidad televisiva, Directiva 2011/83/UE y Marketing 2.0.
+
+## Disposiciones y Principios Clave
+
+- **Principio de Intervención Mínima (\*Ultima Ratio\*)**: La sanción penal debe reservarse para los ataques más graves a los consumidores que no puedan ser atajados por el Derecho administrativo o civil.
+- **Principio Non Bis in Idem**: Queda prohibida la duplicidad de sanciones penales y administrativas sobre los mismos hechos cuando exista identidad de sujeto, hecho y fundamento.
+
+## Implementación
+
+Aplicado por los Tribunales Penales y Civiles, la Audiencia Nacional, el Ministerio de Sanidad y Consumo, las Juntas Arbitrales de Consumo y los órganos sancionadores de las Comunidades Autónomas.
+
+## Problemas de Política Pública
+
+- Solapamiento de procedimientos y sanciones entre la vía penal y el régimen sancionador del TRLGDCU.
+- Proliferación de fraudes en entornos digitales, publicidad engañosa masiva y estafas a pequeños inversores.
+- Indeterminación en la graduación de infracciones administrativas y presencia de cláusulas de cierre imprecisas.
+
+## Reforma
+
+- Delimitar con precisión las esferas penal y administrativa para evitar quebrantamientos del principio \*non bis in idem\*.
+- Fomentar el arbitraje y la mediación institucionalizada para agilizar la resolución de reclamaciones de consumo.
+- Actualizar el marco regulatorio para hacer frente a los abusos comerciales en el e-commerce y las redes sociales (Marketing 2.0).
+
+## Relación con otras Entidades
+
+- **Dirigido por**: Lorenzo Morillas Cueva (Univ. de Granada).
+- **Coordinado por**: José María Suárez López (Univ. de Granada).
+- **Reseñado por**: Samuel Rodríguez Ferrández (Univ. de Murcia).
+- **Publicado por**: Editorial Dykinson (Madrid, 2013) y Ministerio de Ciencia e Innovación (DER2009/12717).
+- **Analiza**: Código Penal de 1995, TRLGDCU (RD Legislativo 1/2007) y Directiva 2011/83/UE.
+- **Evaluación de políticas públicas**: Audiencia Nacional, Ministerio de Sanidad y Consumo y Comunidades Autónomas.
+
+## Véase También
+
+- [Lorenzo Morillas Cueva](https://judicialknowledge.miraheze.org/wiki/Lorenzo_Morillas_Cueva)
+- [José María Suárez López](https://judicialknowledge.miraheze.org/wiki/Jos%C3%A9_Mar%C3%ADa_Su%C3%A1rez_L%C3%B3pez)
+- [Samuel Rodríguez Ferrández](https://judicialknowledge.miraheze.org/wiki/Samuel_Rodr%C3%ADguez_Ferr%C3%A1ndez)
+- [Ley General para la Defensa de los Consumidores y Usuarios](https://judicialknowledge.miraheze.org/wiki/Ley_General_para_la_Defensa_de_los_Consumidores_y_Usuarios)
+- [Código Penal de España](https://judicialknowledge.miraheze.org/wiki/C%C3%B3digo_Penal_de_Espa%C3%B1a)
+- [Arbitraje de Consumo](https://judicialknowledge.miraheze.org/wiki/Arbitraje_de_Consumo)
+
+## Referencias
+
+- Rodríguez Ferrández, S. (2013). "Reseña de 'Derecho y consumo. Aspectos penales, civiles y administrativos' (Dir. Lorenzo Morillas Cueva, Coord. José María Suárez López)". \*Revista de Derecho Penal y Criminología\*, Vol. 10, (págs. 1–12).
+
+---
+
+*Source:* [JPW-WORK-000139](https://judicialknowledge.miraheze.org/wiki/JPW-WORK-000139) on the Judicial Knowledge Hub wiki, revision 1846 (2026-09-25).  
+*Author:* Cecep Mustafa, Indonesian Judicial College (IJC). ORCID: [0000-0003-0037-497X](https://orcid.org/0000-0003-0037-497X)  
+*Cite as:* Mustafa, C. (2026). *JPW-WORK-000139*. In *Judicial Knowledge Hub*. https://judicialknowledge.miraheze.org/wiki/JPW-WORK-000139  
+*Licence:* [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
