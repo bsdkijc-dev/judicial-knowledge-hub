@@ -1,4 +1,18 @@
-# Judicial Knowledge Hub (wiki export)
+<div align="center">
+
+<img src="assets/logo.png" alt="Judicial Knowledge Hub (Wiki Export) Logo" width="140">
+
+# Judicial Knowledge Hub (Wiki Export)
+
+### Open Markdown and static HTML export of 2,004 judicial knowledge, AI governance, and Indonesian law articles.
+
+[![License](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey?style=flat)](LICENSE) ![Stack](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white) [![Website](https://img.shields.io/badge/GitHub_Pages-Live-2ea44f?style=flat&logo=github)](https://bsdkijc-dev.github.io/judicial-knowledge-hub/) [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/judicialcollege/judicial-knowledge-hub-wiki-export-cecep-mustafa)
+
+[Documentation](INDEX.md) · [Website](https://bsdkijc-dev.github.io/judicial-knowledge-hub/) · [Kaggle](https://www.kaggle.com/datasets/judicialcollege/judicial-knowledge-hub-wiki-export-cecep-mustafa) · [Repository](https://github.com/bsdkijc-dev/judicial-knowledge-hub)
+
+</div>
+
+---
 
 **Website:** https://bsdkijc-dev.github.io/judicial-knowledge-hub/ · **Kaggle:** https://www.kaggle.com/datasets/judicialcollege/judicial-knowledge-hub-wiki-export-cecep-mustafa
 
@@ -36,3 +50,13 @@ GitHub also shows a "Cite this repository" button, built from `CITATION.cff`.
 
 ## Licence
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), the licence of the source wiki. See `LICENSE`. Reuse is allowed with attribution, and adapted versions must use the same licence.
+
+---
+
+<div align="center">
+
+**Judicial Knowledge Hub (Wiki Export)**
+
+[github.com/bsdkijc-dev/judicial-knowledge-hub](https://github.com/bsdkijc-dev/judicial-knowledge-hub)
+
+</div>
